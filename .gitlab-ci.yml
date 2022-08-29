@@ -5,10 +5,7 @@ pages:
   script:
     - npm install
     - npm run build
-    - rm ./public -rf
-    - mv ./build ./public
-    - touch ./public/_redirects
-    - echo "/* /index.html 200" >> ./public/_redirects
+    - npm run start
   artifacts:
     paths:
       - public
