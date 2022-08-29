@@ -8,7 +8,7 @@ pages:
     - npm run start
   artifacts:
     paths:
-      - public
+      - public/
   only:
   - main
 
