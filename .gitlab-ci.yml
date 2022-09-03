@@ -11,6 +11,6 @@ pages:
     - echo "/* /index.html 200" >> ./public/_redirects
   artifacts:
     paths:
-      - public
+      - public/
   only:
   - main
