@@ -1,8 +1,8 @@
 {
-  "name": "tongji_software",
+  "name": "tongji-software",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/tongji_software",
+  "homepage": "/tongji-software",
   "dependencies": {
     "@progress/kendo-licensing": "^1.2.2",
     "@progress/kendo-react-popup": "^5.5.0",
