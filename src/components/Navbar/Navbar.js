@@ -12,27 +12,35 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav>
                         <Nav.Link href="/tongji-software">Home</Nav.Link>
-                        <NavDropdown title="Team" id="basic-nav-dropdown">
+                        <NavDropdown title="Project info" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/tongji-software/contribution">Contribution</NavDropdown.Item>
+                            <NavDropdown.Item href="/tongji-software/description">Description</NavDropdown.Item>
                             <NavDropdown.Item href="/tongji-software/attributions">Attributions</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/collaborations">Collaborations</NavDropdown.Item>
                         </NavDropdown>
                         
-                        <NavDropdown title="Project" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/tongji-software/description">Description</NavDropdown.Item>
+                        <NavDropdown title="Human practices" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/tongji-software/implementation">Proposed implementation</NavDropdown.Item>
+                            <NavDropdown.Item href="/tongji-software/human-practices">Human practices</NavDropdown.Item>
+                            <NavDropdown.Item href="/tongji-software/collaborations">Collaborations</NavDropdown.Item>                      
+                        </NavDropdown>
+
+
+ 
+     
+                        <NavDropdown title="Engineering success" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/tongji-software/engineering">Engineering</NavDropdown.Item>
                             <NavDropdown.Item href="/tongji-software/model">Model</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/measurement">Measurement</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/implementation">Implementation</NavDropdown.Item>
                             <NavDropdown.Item href="/tongji-software/proof-of-concept">Proof of Concept</NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Parts" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/tongji-software/parts">Parts</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/contribution">Contribution</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/improve">Improvement</NavDropdown.Item>
+
+                        <NavDropdown title="Education" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/tongji-software/communication">Communication</NavDropdown.Item>
+                        </NavDropdown>
+
+                        <NavDropdown title="Team" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/tongji-software/partnership">Partnership</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/tongji-software/safety">Safety</Nav.Link>
-                        
-                        <Nav.Link href="/tongji-software/human-practices">Human Practices</Nav.Link>
 
                         <NavDropdown title="Awards" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/tongji-software/education">Education</NavDropdown.Item>
