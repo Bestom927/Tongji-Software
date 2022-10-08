@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
-import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
+
 const NavBar = () => {
 
     return (
@@ -59,7 +59,7 @@ const NavBar = () => {
                 </Navbar.Collapse>
                
             </Container>
-            
+            <div><img src={require("../../assets/schoolLogo.png")} alt="logo" id="logo"></img></div>
       </Navbar>
     )
 } 
