@@ -1,0 +1,67 @@
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.titleContent {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    width: 50%;
+    background-color: mintcream;
+}
+
+.videoInfo {
+    text-align: center;
+}
+
+.video {
+    display: inline-block;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 18px;
+    border-color: dodgerblue;
+}
+
+.detail {
+    display: inline-block;
+    width: 50%;
+}
+
+.detailTitle {
+    font-size: 28px;
+    padding-left: 10%;
+}
+
+.detailContent {
+    padding-left: 10%;
+    font-size: 14px;
+    display: inline-block;
+    width: 80%;
+
+}
+
+.detailTitleText {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    border-color: darkgrey;
+    background-color: darkgrey;
+    padding-left: 2%;
+    padding-right: 10%;
+}
+
+.detailText {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    border-color: gainsboro;
+    background-color: gainsboro;
+    padding-left: 2%;
+    padding-right: 10%;
+}
