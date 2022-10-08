@@ -1,19 +1,13 @@
 .title {
-    text-align: center;
     font-size: 32px;
     font-weight: bolder;
-}
-
-.titleContent {
-    text-align: center;
+    color: #0072F9;
+    padding-left: 5%;
 }
 
 .description {
-    text-align: center;
+    padding-left: 5%;
     font-size: 16px;
-    display: inline-block;
-    width: 50%;
-    background-color: mintcream;
 }
 
 .videoInfo {
@@ -28,40 +22,144 @@
     border-color: dodgerblue;
 }
 
-.detail {
-    display: inline-block;
-    width: 50%;
-}
-
 .detailTitle {
-    font-size: 28px;
-    padding-left: 10%;
-}
-
-.detailContent {
-    padding-left: 10%;
-    font-size: 14px;
-    display: inline-block;
-    width: 80%;
-
-}
-
-.detailTitleText {
-    border-style: solid;
-    border-width: 4px;
-    border-radius: 15px;
-    border-color: darkgrey;
-    background-color: darkgrey;
-    padding-left: 2%;
-    padding-right: 10%;
+    font-size: 24px;
+    color: #0072F9;
+    padding-left: 5%;
 }
 
 .detailText {
-    border-style: solid;
-    border-width: 4px;
-    border-radius: 15px;
-    border-color: gainsboro;
-    background-color: gainsboro;
-    padding-left: 2%;
-    padding-right: 10%;
+    font-size: 16px;
+    padding-left: 5%;
+}
+
+.GameDes {
+    display: flex;
+    align-items: top;
+    background-image: url('../../assets/Game01.png');
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 900px;
+    position: relative;
+    z-index: -1;
+}
+
+.conceptTitle {
+    font-size: 24px;
+    color: #0072F9;
+    padding-left: 5%;
+}
+
+.conceptText {
+    font-size: 18px;
+    padding-left: 5%;
+}
+
+.concept {
+    width: 45%;
+    display: inline-block;
+}
+
+.logicTitle {
+    font-size: 24px;
+    color: #0072F9;
+    padding-left: 5%;
+}
+
+.logicText {
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logic {
+    width: 45%;
+    display: inline-block;
+}
+
+.hori-line {
+    width: 60%;
+    height: 60%;
+    border-right: solid #000000 1px;
+}
+
+.hori-line-div {
+    width: 10%;
+    padding-top: 3%;
+    display: inline-block;
+}
+
+.BrochureTitle {
+    font-size: 24px;
+    color: #0072F9;
+    padding-left: 5%;
+}
+
+.BrochureText {
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Brochure {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: -22%;
+}
+
+.BrochureRec {
+    background-color: #EEF3F5;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
+}
+
+.BroImgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.BrochureDiv {
+    display: inline-block;
+}
+
+.BrochureImg {
+    display: inline-block;
+    position: relative;
+    z-index: 999;
+}
+
+.BrochureImg:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 0 0 0;
+}
+
+.BrochureImg1 {
+    display: inline-block;
+    position: relative;
+    z-index: 999;
+}
+
+.BrochureImg1:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 -50px 40px -30px black inset;
+}
+
+.imgWords {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgWord {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0%;
 }

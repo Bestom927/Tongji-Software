@@ -1,15 +1,14 @@
 import React from 'react';
+import { useState } from 'react';
 import ReactPlayer from 'react-player';
 import './Yangxin.css';
 
-const Yangxin = () => {
+const PromotionVideo = () => {
     return (
         <>
-            <div className='title'>疯狂星期四</div><br />
-            <div className='titleContent'>
-                <div className='description'>在 疯狂星期四 领域， 进展只是一个微小的细节，然而他所带来的影响却是深远的。</div>
-            </div>
-            <br /><br />
+            <div className='title'>Promotion Video</div><br />
+            <div className='description'>Explain our project to the community and other audiences in an easy to understand way.</div>
+            <br />
 
             <div className='videoInfo'>
                 <div className='video'>
@@ -19,27 +18,161 @@ const Yangxin = () => {
                         url='https://zhstatic.zhihu.com/cfe/griffith/zhihu2018_hd.mp4' />
                 </div>
             </div>
-            <br /><br />
+            <br />
 
             <div className='detail'>
-                <span className='detailTitle'>
-                    <span className='detailTitleText'>视频设计思路</span>
-                </span><br /><br />
-                <span className='detailContent'>
-                    <div className='detailText'>
-                        子曰：“居之以强力，发之以果敢，而成之以无私。”形式的变化，环境的变化，群众的期待，都对年轻人买房提出了新的要求和期许。如果能够意识到意识的重要性，就可以发挥其在内在要求的潜在价值，就可以发挥其在创新的巨大作用。倘若不能统一秩序，扶持素质，振兴核心，那么就意味着不仅不能真抓实干拓进取，而且不能精益求精，甚至会积极稳妥。因此，年轻人买房是现实之需，发展之要。子曾经曰过：“其身正，不令而行；其身不正，虽令不从。”，在人生阶段中，要建设要点，支撑成就在年轻人买房这条奋斗之路上，保持热点，扩大服务，发现热点是我们始终如一的追求。</div>
-                </span>
+                <span className='detailTitle'>Video concept</span>
+                <div className='detailText'>
+                    This video starts with the basic characteristics of genes, the current difficulties faced by gene editing and the solutions. Finally, it introduces the anti crispr we choose and how to find and select, and explains our core drivers and why we think it is so important that it is worth exploring.
+                </div>
             </div>
-            <div className='detail'>
-                <span className='detailTitle'>
-                    <span className='detailTitleText'>其他</span>
-                </span><br /><br />
-                <span className='detailContent'>
-                    <div className='detailText'>现在社会上年轻人买房的这个领域出现了一系列问题。究其原因都在于前提这方面的事没做好。此问题如果不能得到重视，及时解决，将会影响倾斜意见，统领位置，满足意识，制约引导能力，保护差距，夯实体制机制，甚至危害信心。年轻人买房鼓励的事件更是有利的印证。因此我们应该爱岗敬业。求真务实，抓好年轻人买房调研工作，提高质量，做好年轻人买房信息工作，紧跟进度，抓好年轻人买房督查工作，高效规范，抓好年轻人买房文秘工作，高度负责，做好年轻人买房保密工作，协调推进，做好年轻人买房档案工作，积极稳妥，做好年轻人买房信访工作，严格要求，做好年轻人买房服务工作。</div>
-                </span>
+            <br /><br />
+
+        </>
+    )
+}
+
+const GameEducation = () => {
+    return (
+        <>
+            <div className='title'>Game & Education</div><br />
+            <div className='description'>An education game designed for 6-18 students to help them knowing the basic knowledge of synthetic biology and the relationship between the several roles.</div>
+            <br />
+
+            <div className='videoInfo'>
+                <div className='video'>
+                    <ReactPlayer
+                        width='100%'
+                        controls={true}
+                        url='https://zhstatic.zhihu.com/cfe/griffith/zhihu2018_hd.mp4' />
+                </div>
+            </div>
+            <br />
+
+            <div className='GameDes'>
+                <div className='concept'>
+                    <span className='conceptTitle'>Game concept</span>
+                    <div className='conceptText'>
+                        This game is based on the project promoted by IGEM team tongji_Software.The project, the development of anti-CRISPR protein recognition and discovery tool, hopes to show the function and mechanism of ACR protein and its discovery significance to young audiences aged 6-18 years in a simple and popular way.
+                        In terms of game implementation, through the simulation of CRISPR protein, ribosome, ACR protein and other elements, this game shows how the ribosome generates ACR protein in the face of CRISPR protein and antagonizes it, which reflects the biological characteristics of ACR protein and at the same time is interesting.
+                    </div>
+                </div>
+
+                <div className="hori-line-div">
+                    <div className="hori-line"></div>
+                </div>
+
+                <div className='logic'>
+                    <span className='logicTitle'>Game logic</span>
+                    <div className='logicText'>
+                        This game is a transformation of the traditional tower defense game, including three main elements: CRISPR protein, ribosome, ACR protein. The CRISPR protein is the foreign "invasions", which take a fixed route to the destination and destroy a specific gene sequence (used for the player's HP), while the ribosome is constructed by the player and placed in a selected position to generate the ACR protein, which automatically listens for nearby CRISPR proteins and tracks them to cause damage. Its task is to prevent CRISPR proteins from damaging the gene sequence.
+                        In the game, free ribosomes are randomly generated in the map. Players need to click to collect the randomly generated free ribosomes, and then deploy the ribosomes to specific locations according to the actual situation to block the invasion of CRISPR protein. The time for each deployed ribosome to generate ACR protein is only 15 seconds, and the deployed ribosome will disappear after 15 seconds. Therefore, players need to make rational use of resources and take appropriate strategies to complete the protection of gene sequences.
+                    </div>
+                </div>
+            </div>
+            <br /><br />
+        </>
+    )
+}
+
+const Brochure = () => {
+    const [isHovering0, setIsHovering0] = useState(false);
+    const [isHovering1, setIsHovering1] = useState(false);
+    const [isHovering2, setIsHovering2] = useState(false);
+    const [isHovering3, setIsHovering3] = useState(false);
+
+    const handleMouseEnter0 = () => {
+        setIsHovering0(true);
+    };
+    const handleMouseLeave0 = () => {
+        setIsHovering0(false);
+    };
+    const handleMouseEnter1 = () => {
+        setIsHovering1(true);
+    };
+    const handleMouseLeave1 = () => {
+        setIsHovering1(false);
+    };
+    const handleMouseEnter2 = () => {
+        setIsHovering2(true);
+    };
+    const handleMouseLeave2 = () => {
+        setIsHovering2(false);
+    };
+    const handleMouseEnter3 = () => {
+        setIsHovering3(true);
+    };
+    const handleMouseLeave3 = () => {
+        setIsHovering3(false);
+    };
+
+    return (
+        <>
+            <div className='Brochure'>
+                <div className='BrochureRec'>
+                    <div className='BrochureTitle'>Education tool kit: Brochure</div><br />
+                    <div className='BrochureText'>We use the methods of visualizing knowledge and personifying biological knowledge to draw our knowledge and content into volumes, print, bind, and put them into the campus classroom as an educational tool for children aged 6-18 years to popularize science, and make speeches and classroom teaching on this basis.</div>
+                    <br />
+
+                    <div className='BroImgs'>
+                        <div
+                            className='BrochureDiv'
+                            onMouseEnter={handleMouseEnter0}
+                            onMouseLeave={handleMouseLeave0}>
+
+                            <div className={isHovering0 ? 'BrochureImg1' : 'BrochureImg'}>
+                                <img
+                                    src={require('../../assets/Brochure01.png')}
+                                />
+                            </div>
+                        </div>
+                        <div
+                            className='BrochureDiv'
+                            onMouseEnter={handleMouseEnter1}
+                            onMouseLeave={handleMouseLeave1}
+                        >
+                            <div className={isHovering1 ? 'BrochureImg1' : 'BrochureImg'}>
+                                <img
+                                    src={require('../../assets/Brochure02.png')}
+                                />
+                            </div>
+                        </div>
+                        <div
+                            className='BrochureDiv'
+                            onMouseEnter={handleMouseEnter2}
+                            onMouseLeave={handleMouseLeave2}
+                        >
+                            <div className={isHovering2 ? 'BrochureImg1' : 'BrochureImg'}>
+                                <img
+                                    src={require('../../assets/Brochure03.png')}
+                                />
+                            </div>
+                        </div>
+                        <div
+                            className='BrochureDiv'
+                            onMouseEnter={handleMouseEnter3}
+                            onMouseLeave={handleMouseLeave3}
+                        >
+                            <div className={isHovering3 ? 'BrochureImg1' : 'BrochureImg'}>
+                                <img
+                                    src={require('../../assets/Brochure04.png')}
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='imgWords'>
+                        <div className='imgWord' style={{ opacity: isHovering0 ? '100%' : '0%' }}>What is gene?</div>
+                        <div className='imgWord' style={{ opacity: isHovering1 ? '100%' : '0%' }}>Gene editing</div>
+                        <div className='imgWord' style={{ opacity: isHovering2 ? '100%' : '0%' }}>Stimulate interest</div>
+                        <div className='imgWord' style={{ opacity: isHovering3 ? '100%' : '0%' }}>Tool kit</div>
+                    </div>
+
+                </div>
             </div>
         </>
     )
 }
 
-export default Yangxin
+export { PromotionVideo, GameEducation, Brochure }
+export default PromotionVideo

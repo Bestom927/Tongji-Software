@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Attributions from './pages/Attributions/Attributions';
 import Collaborations from './pages/Collaborations/Collaborations';
-import Communication from './pages/Communication/Communication'; 
+import Communication from './pages/Communication/Communication';
 import Contribution from './pages/Contribution/Contribution';
 import Description from './pages/Description/Description';
 import Education from './pages/Education/Education';
@@ -41,9 +41,9 @@ function App() {
   return (
     <div className='app-container'>
       <NavBar />
-      
-        <Toolbar/>
-      
+
+      <Toolbar />
+
       {/* Routes */}
       <BrowserRouter>
         <Routes>
@@ -77,9 +77,9 @@ function App() {
           <Route exact path='/tongji-software/sustainable' element={<Sustainable />} />
           <Route exact path='/tongji-software/team' element={<Team />} />
         </Routes>
-      </BrowserRouter> 
-      
-      <Footer id ="footer"></Footer>     
+      </BrowserRouter>
+
+      <Footer id="footer"></Footer>
     </div>
   );
 }
