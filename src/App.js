@@ -33,16 +33,13 @@ import Sustainable from './pages/Sustainable/Sustainable';
 import Team from './pages/Team/Team';
 
 import NavBar from './components/Navbar/Navbar';
-import Toolbar from './components/Toolbar/Toolbar';
-
 import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className='app-container'>
-      <NavBar />
+      <NavBar id="navbar"/>
       
-        <Toolbar/>
       
       {/* Routes */}
       <BrowserRouter>
