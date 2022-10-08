@@ -1,13 +1,13 @@
 import React from 'react'
-
+import './Navbar.css';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
-
+import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 const NavBar = () => {
 
     return (
-        <Navbar collapseOnSelect expand="sm" sticky="top" >
-            <Container>
-                <Navbar.Brand href="/tongji-software">Tongji_Software</Navbar.Brand>
+        <Navbar id="navbar" collapseOnSelect expand="sm" sticky="top" >
+            <Container id="coun"  >
+                <Navbar.Brand href="/tongji-software"  style={{"color": "white"}}>Tongji_Software</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav>
@@ -54,9 +54,12 @@ const NavBar = () => {
                             <NavDropdown.Item href="/tongji-software/sustainable">Sustainable</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-
+                    
+                
                 </Navbar.Collapse>
+               
             </Container>
+            <div><img src={require("../../assets/schoolLogo.png")} alt="logo" id="logo"></img></div>
       </Navbar>
     )
 } 

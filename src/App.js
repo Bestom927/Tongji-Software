@@ -35,6 +35,8 @@ import Team from './pages/Team/Team';
 import NavBar from './components/Navbar/Navbar';
 import Toolbar from './components/Toolbar/Toolbar';
 
+import Footer from './components/Footer/Footer';
+
 function App() {
   return (
     <div className='app-container'>
@@ -75,7 +77,9 @@ function App() {
           <Route exact path='/tongji-software/sustainable' element={<Sustainable />} />
           <Route exact path='/tongji-software/team' element={<Team />} />
         </Routes>
-      </BrowserRouter>      
+      </BrowserRouter> 
+      
+      <Footer id ="footer"></Footer>     
     </div>
   );
 }
