@@ -6,11 +6,12 @@ const Home = () => {
              style={{
                 height:1000,
                 width:1500,
-                backgroundImage:"url("+require("./images/bg-img.jpeg")+")",
+                backgroundImage:"url("+require("../../assets/bg-img.jpeg")+")",
                 backgroundRepeat:'no-repeat',
                 backgroundSize: 'cover'
              }}>
-            Home page here!!!
+
+                
         </div>
     )
 }
