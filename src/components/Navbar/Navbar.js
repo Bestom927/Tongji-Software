@@ -59,7 +59,7 @@ const NavBar = () => {
                 </Navbar.Collapse>
                
             </Container>
-            <div><img src={require("../../assets/schoolLogo.png")} alt="logo" id="logo"></img></div>
+            
       </Navbar>
     )
 } 
