@@ -123,6 +123,7 @@ const Brochure = () => {
                             <div className={isHovering0 ? 'BrochureImg1' : 'BrochureImg'}>
                                 <img
                                     src={require('../../assets/Brochure01.png')}
+                                    alt='Brochure01.png'
                                 />
                             </div>
                         </div>
@@ -134,6 +135,7 @@ const Brochure = () => {
                             <div className={isHovering1 ? 'BrochureImg1' : 'BrochureImg'}>
                                 <img
                                     src={require('../../assets/Brochure02.png')}
+                                    alt='Brochure02.png'
                                 />
                             </div>
                         </div>
@@ -145,6 +147,7 @@ const Brochure = () => {
                             <div className={isHovering2 ? 'BrochureImg1' : 'BrochureImg'}>
                                 <img
                                     src={require('../../assets/Brochure03.png')}
+                                    alt='Brochure03.png'
                                 />
                             </div>
                         </div>
@@ -156,6 +159,7 @@ const Brochure = () => {
                             <div className={isHovering3 ? 'BrochureImg1' : 'BrochureImg'}>
                                 <img
                                     src={require('../../assets/Brochure04.png')}
+                                    alt='Brochure04.png'
                                 />
                             </div>
                         </div>
