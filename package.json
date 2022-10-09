@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "/tongji-software",
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/lab": "^4.0.0-alpha.61",
     "@progress/kendo-licensing": "^1.2.2",
     "@progress/kendo-react-popup": "^5.5.0",
     "@testing-library/jest-dom": "^5.16.4",

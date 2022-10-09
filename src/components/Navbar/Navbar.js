@@ -41,6 +41,7 @@ const NavBar = () => {
                             <NavDropdown.Item href="/tongji-software/partnership">Partnership</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/tongji-software/safety">Safety</Nav.Link>
+                        <Nav.Link href="/tongji-software/notebook">Notebook</Nav.Link>
 
                         <NavDropdown title="Awards" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/tongji-software/education">Education</NavDropdown.Item>
