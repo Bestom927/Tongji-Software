@@ -1,0 +1,194 @@
+* {
+	padding: 0;
+	margin: 0
+}
+
+body{
+    background-color: white;
+}
+
+
+.backgroudDiv{
+    width: 100%;
+	height: 100%;
+	bottom: 0;
+	left:10%
+}
+
+
+.pure_bottom {
+	width: 100%;
+	height: 750px;
+	bottom: 0;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.pure_bottom::after{
+	content: "";
+	width: 68%;
+	height: 73%;
+	position: absolute;
+	z-index: -1;
+	bottom: -2%;
+	background-color: #0067EC;
+	border-radius:2500px 2500px 0 0;
+	left: 16.5%;
+}
+
+.jump-box{
+	width: 400px;
+	height: 60px;
+	background-color: white;
+	position: absolute;
+	box-shadow: 0 4px 16px 1px rgb(0 0 0 / 12%);
+  	padding: 11px 8px 12.5px;
+	display: inline;
+	border-radius: 25px 25px 25px 25px;
+}
+
+#jump-box1{
+	margin: 0 auto;
+	margin-top: 9%;
+	margin-left: 40.5%;
+	display: block;
+	rotate: 2deg;
+}
+
+#jump-box2{
+	margin-top: 17%;
+	margin-left: 19.5%;
+	display: block;
+	float: left;
+	rotate: -3deg;
+}
+
+#jump-box3{
+	margin-top: 17%;
+	margin-left: 64.5%;
+	float: right;
+	rotate: 12deg;
+}
+
+#jump-box4{
+	margin-top: 28%;
+	margin-left: 25.5%;
+	float: left;
+	rotate: -12deg;
+}
+
+#jump-box5{
+	margin-top: 32%;
+	margin-left: 55.5%;
+	float: right;
+	rotate: 12deg;
+}
+
+#jump-icon-3User{
+	float: left;
+	margin-top: 3%;
+	margin-left: 15%;
+}
+
+#jump-icon-Chat{
+	float: left;
+	margin-top: 3%;
+	margin-left: 15%;
+}
+
+#jump-icon-Search{
+	float: left;
+	margin-top: -2%;
+	margin-left: 10%;
+}
+
+#jump-icon-Edit{
+	float: left;
+	margin-top: 2%;
+	margin-left: 12%;
+}
+
+#jump-icon-AddUser{
+	float: left;
+	margin-top: 3%;
+	margin-left: 14%;
+}
+
+.jump-instance{
+	margin-top: 2.5%;
+	width: 64%;
+	float: right;
+	text-align: left;
+	font-size: 30px;
+	font-weight:normal;
+}
+
+.jump-box:hover{
+	animation: jumpBoxHandler 1.8s infinite;
+}
+
+@keyframes jumpBoxHandler{
+	0%{
+		transform: translate(0px,0px);
+	}
+	50%{
+		transform: translate(0px,10px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+
+.title-info{
+	text-align: center;
+	height: 30%;
+	min-height: 140px;
+	font-size: 64px;
+	font-weight: bolder;
+	margin: 0 auto;
+	padding-top: 40px;
+	color: #0176FF;
+}
+
+.title-content{
+	text-align: center;
+	min-height: 120px;
+	font-size: 28px;
+	font-weight: normal;
+	margin: 0 auto;
+	color: #42597A;
+}
+
+#center-photo2{
+	position: absolute;
+	width: 280px;
+	height: 200px;
+	background-color: none;
+	bottom: 30%;
+	margin-left: 40%;
+	border-radius: 25px 25px 25px 25px;
+}
+
+#center-photo1{
+	position: absolute;
+	width: 300px;
+	height: 160px;
+	background-color: none;
+	bottom: 20%;
+	margin-left: 58%;
+	border-radius: 25px 25px 25px 25px;
+}
+
+#centerPho2{
+	width: 125%;
+	height: 115%;
+	padding: 10;
+	border-radius: 25px 25px 25px 25px;
+}
+
+#center1{
+	width: 110%;
+	height: 115%;
+	padding: 10;
+	border-radius: 25px 25px 25px 25px;
+}
