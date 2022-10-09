@@ -1,5 +1,5 @@
 function NameCard(props){
-    if(props.name=="biology")
+    if(props.name==="biology")
     return(
         <>
     <p style={{fontWeight:"bold" ,fontSize:"17px"}}> Our team composed by 5 people, we were mainly responsed for the whole synthetic biology part, including concept generated, contact partnership, data analysis, and etc. 
@@ -14,7 +14,7 @@ function NameCard(props){
         </>
     )
 
-    else if (props.name=="software")
+    else if (props.name==="software")
     return(
         <>
         <p style={{fontWeight:"bold" ,fontSize:"17px"}}> 
