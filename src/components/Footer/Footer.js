@@ -9,11 +9,26 @@ const Footer = () => {
             </div>
             
             <div id="contact_info">
-                <a href="https://gitlab.igem.org/2022/tongji-software">gitlab Repository</a>
-                <br/>
-                <a href="https://gitlab.igem.org/2022/tongji-software">bilibili</a>
-                <br/>
-                <a href="https://gitlab.igem.org/2022/tongji-software">igem</a>
+                <div style={{bottom:"30px"}}>
+
+                    <a>
+                    <img src={require("../../../src/assets/igem.png")} alt="logo"></img>
+                    </a>
+                    
+                    <a>
+                    <img src={require("../../../src/assets/bilibili.png")} alt="logo"></img>
+                    </a>
+
+                    <a>
+                    <img src={require("../../../src/assets/github.png")} alt="logo"></img>
+                    </a>
+
+                    <a href="https://gitlab.igem.org/2022/tongji-software">
+                    <img src={require("../../../src/assets/gitlab_logo.png")} alt="logo"
+                    style={{height:"100px"}}
+                    ></img></a>
+                
+                </div>
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
 import React from 'react'
 import { PromotionVideo, GameEducation, Brochure } from '../YX/Yangxin';
 import Semicircle from '../YFY/yfy1';
+import Support from '../../../src/components/Support/Support.js'
 
 const Home = () => {
     return (
@@ -21,6 +22,8 @@ const Home = () => {
             <PromotionVideo /><br /><br />
             <GameEducation />
             <Brochure />
+
+            <Support/>
         </>
     )
 }
