@@ -30,11 +30,7 @@ console.log(card);
 
       <Row>
       <Col md={{span:8,offset:1}}>
-       <p style={{fontSize:'18px'}}>Our team members come from the Academy of Life Sciences and Technology,
-         the Academy of Design and Innovation, the Academy of Software, 
-         the Academy of Mathematical Sciences, and the Academy of Electronics and 
-         Information Engineering. All of them assisted each other throughout the project and actively participated in all parts of the work. At the same time, we were able to exchange ideas and learn to collide with new inspirations, 
-        and each member was very important, making us feel like one big family.</p>
+       <p style={{fontSize:'18px'}}>Our team members come from the Academy of Life Sciences and Technology, the Academy of Design and Innovation, the Academy of Software and the Academy of Mathematical Sciences. All of them assisted each other throughout the project and actively participated in all parts of the work. At the same time, we were able to exchange ideas and do some brainstorming with new inspirations. Each member was very important, and a indivisible part of our team family.</p>
       <br/>
        <Row>
         <Col xs={3}>
