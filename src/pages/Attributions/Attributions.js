@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
@@ -6,9 +6,13 @@ import Button  from 'react-bootstrap/Button';
 import '../CC/cc.css';
 import CheckboxIcon from '../CC/checkbox';
 import Star from '../CC/star';
+import NameCard from '../CC/namecard';
 
 
 function Attributions (props)  {
+
+const [card,setCard]=useState("biology");
+console.log(card);
     return (
         <div className='attributions-container'>
             <img src={require("../../assets/2-1.png")} alt="attr-page-img1" />
@@ -35,24 +39,46 @@ function Attributions (props)  {
        <Row>
         <Col xs={3}>
         <br/>
-        <Button size="lg" className="chosenButton" variant="outline-light"><Star/>&nbsp;&nbsp; Biology&nbsp;&nbsp; </Button>
+        {
+        card==="biology"&&
+        <Button size="lg"   className="chosenButton"  variant="outline-light">
+          <Star/>&nbsp;&nbsp; Biology&nbsp;&nbsp; </Button>
+        }  
+
+        {
+        card!=="biology"&&
+        <Button size="lg" className="defaultButton" variant="outline-light"
+        onClick={()=>{if(card!=="biology")setCard("biology");}}><Star/>&nbsp;&nbsp; Biology&nbsp;&nbsp; </Button>
+        }  
+
         <br/>  <br/>
-        <Button size="lg" className="defaultButton" variant="outline-light"><Star/>&nbsp;&nbsp; Software</Button>
+
+        {
+          card==="software"&&<Button size="lg" className="chosenButton" variant="outline-light">
+            <Star/>&nbsp;&nbsp; Software</Button>
+         }
+
+        {
+          card!=="software"&&<Button size="lg" className="defaultButton" variant="outline-light"
+          onClick={()=>{if(card!=="software")setCard("software");}}><Star/>&nbsp;&nbsp; Software</Button>
+         }
+
+
         <br/>  <br/>
-        <Button size="lg" className="defaultButton" variant="outline-light"><Star/>&nbsp;&nbsp; Design&nbsp;&nbsp;&nbsp;</Button>
-       </Col>
+        {
+          card==="design"&&<Button size="lg" className="chosenButton" variant="outline-light"
+          ><Star/>&nbsp;&nbsp; Design&nbsp;&nbsp;&nbsp;</Button>
+         }
+        {
+          card!=="design"&&<Button size="lg" className="defaultButton" variant="outline-light"
+          onClick={()=>{if(card!=="design")setCard("design")}}><Star/>&nbsp;&nbsp; Design&nbsp;&nbsp;&nbsp;</Button>
+         }
+
+    </Col>
        <Col xs={6}>
         <Card border="light"  style={{ width: '40rem' ,padding:"20 20 20 20"}} className='card'> 
       <Card.Body>
-       <p style={{fontWeight:"bold" ,fontSize:"17px"}}> Our team composed by 5 people, we were mainly responsed for the whole synthetic biology part, including concept generated, contact partnership, data analysis, and etc. 
-      </p>
-      <br/>
-      <img src={require("../../assets/bio1.png")} alt="bio1" className="portrait"/>
-      &nbsp;&nbsp;
-      <img src={require("../../assets/bio2.png")} alt="bio1" className="portrait"/>
-      &nbsp;&nbsp;
-      <img src={require("../../assets/bio3.png")} alt="bio1" className="portrait"/>
-      &nbsp;&nbsp; &nbsp;&nbsp;····
+     <NameCard name={card}/>
       </Card.Body>
         </Card>
         </Col>

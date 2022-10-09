@@ -10,33 +10,38 @@
 
 .chosenButton{
    background-color: #2e77e5; 
-   color:#fefefe
+   color:#fefefe;
+   font-weight: bold;
 }
 
 .chosenButton:hover{
     background-color: #2e77e5; 
-    color:#fefefe
+    color:#fefefe;
+    font-weight: bold;
  }
 
  .chosenButton:focus{
     background-color: #2e77e5; 
-    color:#fefefe
+    color:#fefefe;
+    font-weight: bold;
  }
 
 .defaultButton{
     background-color: #fefefe; 
-    color :#2e77e5
-
+    color :#2e77e5;
+    font-weight: bold;
 }
 
 .defaultButton:hover{
     background-color: #fefefe; 
-    color :#2e77e5
+    color :#2e77e5;
+    font-weight: bold;
 
 }
 
 .defaultButton:focus{
     background-color: #2e77e5; 
-    color:#fefefe
+    color:#fefefe;
+    font-weight: bold;
 
 }
