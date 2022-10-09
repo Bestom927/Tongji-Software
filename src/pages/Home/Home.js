@@ -1,6 +1,6 @@
 import React from 'react'
 import { PromotionVideo, GameEducation, Brochure } from '../YX/Yangxin';
-import Semicircle from '../YFY/yfy1';
+import Semicircle from '../YFY/Semicircle';
 import Support from '../../../src/components/Support/Support.js'
 
 const Home = () => {
