@@ -45,3 +45,7 @@
     font-weight: bold;
 
 }
+
+.detailInfo p{
+    margin: 0px;
+}
