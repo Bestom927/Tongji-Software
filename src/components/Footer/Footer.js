@@ -11,15 +11,15 @@ const Footer = () => {
             <div id="contact_info">
                 <div style={{bottom:"30px"}}>
 
-                    <a>
+                    <a href="https://gitlab.igem.org/2022/tongji-software">
                     <img src={require("../../../src/assets/igem.png")} alt="logo"></img>
                     </a>
                     
-                    <a>
+                    <a href="https://gitlab.igem.org/2022/tongji-software">
                     <img src={require("../../../src/assets/bilibili.png")} alt="logo"></img>
                     </a>
 
-                    <a>
+                    <a href="https://gitlab.igem.org/2022/tongji-software">
                     <img src={require("../../../src/assets/github.png")} alt="logo"></img>
                     </a>
 
