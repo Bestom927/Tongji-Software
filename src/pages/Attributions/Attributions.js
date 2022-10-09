@@ -7,6 +7,8 @@ import '../CC/cc.css';
 import CheckboxIcon from '../CC/checkbox';
 import Star from '../CC/star';
 import NameCard from '../CC/namecard';
+import QuotUp from '../CC/syh';
+import QuotDown from '../CC/xyh';
 
 
 function Attributions (props)  {
@@ -289,8 +291,70 @@ console.log(card);
 
 </Col>
 </Row>
-<br/><br/>
+<br/><br/><br/>
       </div>
+
+
+      <div className="hightDiscuss">
+      <h1 style={{color:"#2e77e5" ,fontWeight:"bold",textAlign:"center"}}>Hightlight discussion</h1>
+       <p style={{textAlign:"center" ,fontSize:'18px'}}>Here to share some highlight discussion while we generate our concept and software.</p>
+     
+      <Row>
+        <Col md={{offset:2,span:2}}>
+        <br/> <br/> <br/> <br/>
+        <img src={require("../../assets/bio2.png")} alt="bio2" className="portrait"/>
+        </Col>
+        <Col>
+        <div className="talk-bubble tri-right left-top">
+  <div className="talktext">
+    <QuotUp />
+    <p>
+    The Crispr-Cas system has been used to develop powerful gene editing and engineering tools. However, the unexpected off-target effects of the Crispr-Cas system can lead to reduced editing efficiency and may raise serious biosafety concerns. In order to make the Crispr-Cas system more useful, especially in the field of gene therapy, we can use Anti-Crispr proteins to regulate the Crispr-Cas system. Therefore, it is a valuable task to explore the potential Anti-Crispr proteins.
+    &nbsp;<QuotDown/></p>
+  </div>
+</div>
+        </Col>
+      </Row>
+
+
+      <Row>
+      <Col md={{offset:2}}>
+        <div class="talk-bubble tri-right round right-in" style={{backgroundColor:"#2e77e5",color:"white"}}>
+  <div class="talktext">
+  <QuotUp />
+    <p>
+      Guilt-By-Assosiation and Self-Targeting, two commonly used methods for Anti-Crispr protein mining, both consider other factors associated with Anti-Crispr proteins without focusing on the protein itself, and both fail to provide an integrated approach. In addition to small size and lack of conservation, other characteristics of Acr proteins are unknown. Therefore, we can choose a machine learning approach to mine potential Anti-Crispr proteins from the genome.
+      <QuotDown/>
+    </p>
+  </div>
+</div>
+        </Col>
+        <Col md={{offset:1}}>
+          <br/><br/><br/>
+        <img src={require("../../assets/bio3.png")} alt="bio3" className="portrait"/></Col>
+        
+      </Row>
+
+      <Row>
+        <Col md={{offset:2,span:2}}>
+        <br/> <br/> <br/> <br/>
+        <img src={require("../../assets/bio1.png")} alt="bio1" className="portrait"/>
+        </Col>
+        <Col>
+        <div className="talk-bubble tri-right left-top">
+  <div className="talktext">
+    <QuotUp />
+    <p>
+    Since the research on Anti-Crispr protein is not yet thorough and relevant research and literature resources are scarce, we obtained a small volume of positive training set data. The problem of imbalance between positive and negative datasets leads to poor model training. Due to the sufficient amount of negative data, we can optimize the model by undersampling to improve the model prediction accuracy.
+    &nbsp;<QuotDown/></p>
+  </div>
+</div>
+        </Col>
+      </Row>
+
+      </div>
+
+
         </div>
         
     )
