@@ -59,7 +59,7 @@ const NavBar = () => {
                 </Navbar.Collapse>
                
             </Container>
-            <div><img src={require("../../assets/schoolLogo.png")} alt="logo" id="logo"></img></div>
+            <div><img src="https://static.igem.wiki/teams/4272/wiki/schoollogo.png" alt="logo" id="logo"></img></div>
       </Navbar>
     )
 } 

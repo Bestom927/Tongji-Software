@@ -1,7 +1,7 @@
 #footer{
-    width: 98%;
+    width: 94%;
     height:100px;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
 #title{
@@ -15,7 +15,7 @@
 #contact_info{
     height:400px;
     background-color: #0072F9;
-    border-radius: 15px;
+    border-radius: 25px;
     text-align: center;
 }
 
