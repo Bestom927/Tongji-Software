@@ -1,0 +1,42 @@
+.card{
+    box-shadow: 5px 5px 10px rgb(227, 227, 227) ;
+}
+
+.portrait{
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+}
+
+.chosenButton{
+   background-color: #2e77e5; 
+   color:#fefefe
+}
+
+.chosenButton:hover{
+    background-color: #2e77e5; 
+    color:#fefefe
+ }
+
+ .chosenButton:focus{
+    background-color: #2e77e5; 
+    color:#fefefe
+ }
+
+.defaultButton{
+    background-color: #fefefe; 
+    color :#2e77e5
+
+}
+
+.defaultButton:hover{
+    background-color: #fefefe; 
+    color :#2e77e5
+
+}
+
+.defaultButton:focus{
+    background-color: #2e77e5; 
+    color:#fefefe
+
+}
