@@ -108,12 +108,197 @@ console.log(card);
       </Col>
       </Row>
 
-    
-      <br/><br/><br/><br/><br/><br/>
+<br/><br/><br/>
+
+      <Row>
+      <Col md={{offset:1}}>
+      <h1 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Details</h1>
+      </Col>
+      </Row>
+<br/><br/>
+
+<div className="detailInfo">
+      <Row>
+      <Col md={{span:3,offset:2}}>
+        <br/>
+      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Zhang Shiyue</h3>
+      </Col>
+
+      <Col md={{span:4,offset:0}}>
+      <p style={{fontWeight:"bold",fontSize:'18px'}}>
+      Team Leader: Academic Group Leader 
+      </p>
+      <p>Participating HP </p>
+      <p>Contact with collaboration and partnership</p>
+      <p> Model determination and final construction</p>
+     
+      </Col>
+      </Row>
+
+      <br/><br/>
+
+      <Row>
+      <Col md={{span:3,offset:2}}>
+        <br/>
+      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Zheng Yulong</h3>
+      </Col>
+
+      <Col md={{span:4,offset:0}}>
+      <p style={{fontWeight:"bold",fontSize:'18px'}}>
+      Team Leader: Coordination Leader 
+      </p>
+      <p> Preliminary Research  </p>
+      <p> Wiki writing </p>
+      <p>Data collection</p>
+      <p>Model Validation</p>
+     
+      </Col>
+      </Row>
+
+      <br/> <br/>
+
+      <Row>
+      <Col md={{span:3,offset:2}}>
+        <br/>
+      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Zhang Zihan</h3>
+      </Col>
+
+      <Col md={{span:4,offset:0}}>
+      <p style={{fontWeight:"bold",fontSize:'18px'}}>
+        Team Leader: Software Leader
+      </p>
+      <p> Wiki construction and writing </p>
+      <p> Tool environment configuration </p>
+      <p>In charge of education and public engagement</p>
       
+      </Col>
+      </Row>
+
+      <br/> <br/>
+
+      <Row>
+      <Col md={{span:3,offset:2}}>
+      <br/>
+      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Li Xuechen</h3>
+      </Col>
+
+      <Col md={{span:4,offset:0}}>
+      <p>  Art design (Brochure, video, and poster design) </p>
+      <p> Wiki design and writing </p>
+      <p>Participating HP</p>
+      
+      </Col>
+      </Row>
+
+      <br/><br/>
+
+      <Row>
+      <Col md={{span:3,offset:2}}>
+      <br/><br/>
+      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Li Shiyu</h3>
+      </Col>
+
+      <Col md={{span:4,offset:0}}>
+      <p>  Wiki writing</p>
+      <p>  Participating HP </p>
+      <p>  Participating in education and public engagement </p>
+      <p> Financial management </p>
+      <p>  Data feature extraction</p>
+      
+      </Col>
+      </Row>
+
+      <br/><br/>
+
+      <Row>
+      <Col md={{span:3,offset:2}}>
+      <br/><br/>
+      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Zhou Shixuan</h3>
+      </Col>
+
+      <Col md={{span:4,offset:0}}>
+      <p>In charge of human practice (content planning) </p>
+      <p>Contact with collaboration and partnership </p>
+      <p> Data collection and feature extraction</p>
+      <p> Code Programming </p>
+      <p>Presentation</p>
+      
+      </Col>
+      </Row>
+
+
+      
+      <br/><br/>
+
+      <Row>
+      <Col md={{span:3,offset:2}}>
+      <br/>
+      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Zhang Jiani</h3>
+      </Col>
+
+      <Col md={{span:4,offset:0}}>
+      <p>Preliminary Research </p>
+      <p>Wiki writing </p>
+      <p>Model selection and optimization</p>
+      
+      </Col>
+      </Row>
+
+      <br/><br/>
+
+<Row>
+<Col md={{span:3,offset:2}}>
+<br/>
+<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Yang Xin</h3>
+</Col>
+
+<Col md={{span:4,offset:0}}>
+<p>Educational game design </p>
+<p>Wiki construction Database </p>
+<p>Management </p>
+<p>Participating HP</p>
+
+</Col>
+</Row>
+
+<br/><br/>
+
+<Row>
+<Col md={{span:3,offset:2}}>
+<br/>
+<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Yuan Fengye</h3>
+</Col>
+
+<Col md={{span:4,offset:0}}>
+<p>Wiki construction</p>
+<p> Participating HP </p>
+<p>Code Programming </p>
+<p>Educational game design and construction</p>
+
+</Col>
+</Row>
+
+<br/><br/>
+
+<Row>
+<Col md={{span:3,offset:2}}>
+<br/>
+<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Chen Chen</h3>
+</Col>
+
+<Col md={{span:4,offset:0}}>
+<p>Code Programming </p>
+<p>Wiki construction and writing </p>
+<p>Educational game design</p>
+
+</Col>
+</Row>
+<br/><br/>
+      </div>
         </div>
         
     )
 }
+
 
 export default Attributions;
