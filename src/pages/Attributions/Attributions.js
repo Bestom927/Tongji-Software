@@ -21,9 +21,6 @@ console.log(card);
        
       <Row>
       <Col md={{offset:1}}>
-      {/* <div id="title">
-         Attributions
-      </div> */}
       <h1 style={{color:"#2e77e5" ,fontWeight:"bold"}}> Attributions</h1>
       </Col>
       </Row>
