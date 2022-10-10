@@ -6,7 +6,7 @@ import Slider from '@mui/material/Slider';
 import Card from 'react-bootstrap/Card';
 import '../CC/cc.css';
 import CardGroup from 'react-bootstrap/CardGroup';
-import { Container, textAlign } from '@mui/system';
+import { Container } from '@mui/system';
 import CheckboxIcon from '../CC/checkbox';
 
 function HumanPractices ()  {
