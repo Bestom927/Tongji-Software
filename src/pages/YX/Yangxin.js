@@ -6,7 +6,8 @@ import './Yangxin.css';
 const PromotionVideo = () => {
     return (
         <>
-            <div className='title'>Promotion Video</div><br />
+            <div className='title'><img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
+              style={{width:"3vw",marginTop:"-1vw"}}alt="model"/> Promotion Video</div><br />
             <div className='description'>Explain our project to the community and other audiences in an easy to understand way.</div>
             <br />
 
