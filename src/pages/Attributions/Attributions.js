@@ -21,9 +21,6 @@ console.log(card);
        
       <Row>
       <Col md={{offset:1}}>
-      {/* <div id="title">
-         Attributions
-      </div> */}
       <h1 style={{color:"#2e77e5" ,fontWeight:"bold"}}> Attributions</h1>
       </Col>
       </Row>
@@ -346,7 +343,8 @@ console.log(card);
     <QuotUp />
     <p>
     Since the research on Anti-Crispr protein is not yet thorough and relevant research and literature resources are scarce, we obtained a small volume of positive training set data. The problem of imbalance between positive and negative datasets leads to poor model training. Due to the sufficient amount of negative data, we can optimize the model by undersampling to improve the model prediction accuracy.
-    &nbsp;<QuotDown/></p>
+    &nbsp;</p>
+    <p style={{marginLeft:500}}><QuotDown/></p>
   </div>
 </div>
         </Col>
@@ -354,6 +352,88 @@ console.log(card);
 
       </div>
 
+<br/><br/>
+<div className="acknowledgements">
+<Row>
+      <Col md={{offset:1}}>
+      <h1 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Acknowledgements</h1>
+      </Col>
+      </Row>
+      <br/>
+      <Row>
+      <Col md={{offset:1}}>
+      <p>Thank you to all the teachers, students, and others who have supported and helped us.</p>
+      </Col>
+      </Row>
+
+      <br/>
+
+<Row>
+<Col md={{span:3,offset:2}}>
+
+<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Dr. Qi Liu</h3>
+</Col>
+
+<Col md={{span:4,offset:0}}>
+<p>provided initial project ideas and optimization solutions.</p>
+
+</Col>
+</Row>
+
+
+<br/>
+<br/>
+<br/>
+
+<Row>
+<Col md={{span:3,offset:2}}>
+
+<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Dr. Jing Zhang</h3>
+</Col>
+
+<Col md={{span:4,offset:0}}>
+<p>offered us various support for the project.</p>
+
+</Col>
+</Row>
+
+
+<br/>
+<br/>
+<br/>
+
+<Row>
+<Col md={{span:3,offset:2}}>
+
+<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Dr. Jing Zhang</h3>
+</Col>
+
+<Col md={{span:4,offset:0}}>
+<p>offered us various support for the project.</p>
+
+</Col>
+</Row>
+
+
+<br/>
+<br/>
+<br/>
+
+<Row>
+<Col md={{span:3,offset:2}}>
+
+<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Dr. Ye Leng</h3>
+</Col>
+
+<Col md={{span:4,offset:0}}>
+<p>gave us advice and communication support.</p>
+
+</Col>
+</Row>
+<br/>
+<br/>
+<br/>
+</div>
 
         </div>
         
