@@ -299,7 +299,7 @@ console.log(card);
       <Row>
         <Col md={{offset:2,span:2}}>
         <br/> <br/> <br/> <br/>
-        <img src={require("../../assets/bio2.png")} alt="bio2" className="portrait"/>
+        <img src="https://static.igem.wiki/teams/4272/wiki/bio2.png" alt="bio2" className="portrait"/>
         </Col>
         <Col>
         <div className="talk-bubble tri-right left-top">
@@ -328,14 +328,14 @@ console.log(card);
         </Col>
         <Col md={{offset:1}}>
           <br/><br/><br/>
-        <img src={require("../../assets/bio3.png")} alt="bio3" className="portrait"/></Col>
+        <img src="https://static.igem.wiki/teams/4272/wiki/bio3.png" alt="bio3" className="portrait"/></Col>
         
       </Row>
 
       <Row>
         <Col md={{offset:2,span:2}}>
         <br/> <br/> <br/> <br/>
-        <img src={require("../../assets/bio1.png")} alt="bio1" className="portrait"/>
+        <img src="https://static.igem.wiki/teams/4272/wiki/bio1.png" alt="bio1" className="portrait"/>
         </Col>
         <Col>
         <div className="talk-bubble tri-right left-top">
