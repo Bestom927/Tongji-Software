@@ -12,12 +12,12 @@ const PromotionVideo = () => {
 
             <div className='videoInfo'>
                 <div className='video'>
-                    <ReactPlayer
-                        width='100%'
-                        controls={true}
-                        url='https://zhstatic.zhihu.com/cfe/griffith/zhihu2018_hd.mp4' />
+                <iframe title="Tongji_Software: Anti-Protein: Make CRISPR System Great Again (2022) - Project Promotion [English]" width="560" height="315" src="https://video.igem.org/videos/embed/56a0d3e2-646b-42ed-8f53-dbb5c43678b0" 
+                    frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"
+                    style={{width:"80vw",height:"80vh"}}></iframe>
                 </div>
             </div>
+            
             <br />
 
             <div className='detail'>

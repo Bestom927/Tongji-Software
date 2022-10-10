@@ -163,21 +163,7 @@ const Engineering = () => {
       </Col>
 
 
-      
-      <Col md={{offset:1}}>
-      <h2 className='head2' style={{
-            color:"#2e77e5",
-         }}
-        >Improve</h2>
-      </Col>
-      <Col md={{span:8,offset:1}}>
-       <p> 
-        After the software was built, we found during user testing that the input format for the genome could be improved, as seen in the Human Practices section. Initially, we originally had the input in fasta file format, but user feedback said that this was not suitable for batch processing. So, we added the NCBI Accession Number input format to make it easier for users to use.
-      </p>
-      <p>
-        In addition, we have improved the code to reduce the calculation time because of the feedback from users about the speed of the software. In addition, considering the convenience of our software, we have reduced the input to a minimum, requiring only the genome number or sequence to complete the prediction without specifying additional information such as species, calculation method, etc.
-      </p>
-      </Col>
+
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
