@@ -29,7 +29,7 @@ body{
 	height: 210vh;
 	position: absolute;
 	z-index: -1;
-	top: 35vh;
+	margin-top: -195vh;
 	background-color: #0067EC;
 	border-radius:250vh 250vh 10vh 10vh;
 	left: 18vw;

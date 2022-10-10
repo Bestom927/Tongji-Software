@@ -6,6 +6,7 @@ const Semicircle = () =>{
     return(
 
         <div className='backgroudDiv' >
+
         <div className="title-info" style={{color: "#0176FF"}}>
             Concept Generation
         </div>

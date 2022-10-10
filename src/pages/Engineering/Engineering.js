@@ -84,11 +84,12 @@ const Engineering = () => {
         >Problem 1: Too many features and redundant information</h4>
       <p>
       Since we introduced features such as lysogenic virus boundary and self-targeting CRISPR system, after collating data, we found that the matrix of such features was sparse and only a small portion of species existed with similar features, which were not significant for the final decision.</p>
-      <Col md={{offset:2}}>
+      <Col md={{offset:0}}>
       <h4 className='head4' style={{
             color:"#2e77e5",
          }}
-        >Redesign 1: Introduction of concept "directon"[1]</h4></Col>
+        ><img src={require("../../../src/assets/arrow-right.png")} alt="a" style={{height:"50px"}} />
+        Redesign 1: Introduction of concept "directon"[1]</h4></Col>
          <p>
          After reviewing relevant information and communicating with other teams, we introduced the "directon" feature to aid in decision-making. This feature is based on Acr protein around Aca protein to assist in prediction, and we used a series of concepts generating from this feature, which is of huge importance in our prediction model. </p>
 
@@ -98,11 +99,12 @@ const Engineering = () => {
         >Problem 2: Unbalanced data ratio</h4>
         <p>
         The percentage of positive data in our data was very low (lower than or equal 2%). Meanwhile we firstly thought that training the model directly would result in a very low false positive rate, and all the proteins found would have a very high probability of being actual ACR proteins. But the fact is that almost no protein was found.</p>
-        <Col md={{offset:2}}>
+        <Col md={{offset:0}}>
       <h4 className='head4' style={{
             color:"#2e77e5",
          }}
-        > Redesign 2: Data Processing</h4></Col>
+        ><img src={require("../../../src/assets/arrow-right.png")} alt="a" style={{height:"50px"}} />
+         Redesign 2: Data Processing</h4></Col>
       <p>
       We referred to the random forest approach to do out-of-bag put-back sampling each round to construct almost balanced training sets to optimize the model and achieved good results.</p>
          <p>In addition, through communication with the SYSU team, we found that they also encountered the same problem, and their data processing method also provided us with some references and inspired us to use the downsampling method to process the data.</p>
@@ -112,11 +114,13 @@ const Engineering = () => {
         >Problem 3: Model selection</h4>
         <p>
         We were tangled with the choice of models among convolutional neural network, SVM, random forest, and other methods, and found that the comparability was not high after completing several tests of building individual models. This also prevented us from obtaining a model with better results and brought our project progress to a deadlock.</p>
-        <Col md={{offset:2}}>
+        <Col md={{offset:0}}>
+        
         <h4 className='head4' style={{
             color:"#2e77e5",
          }}
-        >Redesign 3: Grid Search</h4></Col>
+        ><img src={require("../../../src/assets/arrow-right.png")} alt="a" style={{height:"50px"}} />
+          Redesign 3: Grid Search</h4></Col>
        <p>
        To get the optimal results for each model, we reviewed the data and solved the problem by continuously trying different methods. Finally, we found the grid search method. Through this method, we compared the results of different models and determine the random forest algorithm as the core discriminant algorithm of the model, which also resulted in the excellent prediction output of our model.</p>
       </Col>
