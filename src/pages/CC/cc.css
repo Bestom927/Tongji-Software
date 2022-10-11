@@ -8,6 +8,41 @@
   background-color: #2e77e5;
 }
 
+.sx{
+  /* float:left; */
+  /* margin-top: 30px; */
+  width: 1px;
+  height: 1200px;
+  background: darkgray;
+  margin-left: 3vw;
+}
+
+.sxtest{
+  /* float:left; */
+  /* margin-top: 30px; */
+  width: 1px;
+  height: 60vw;
+  background: darkgray;
+  margin-left: 3vw;
+}
+
+.sxqs{
+  /* float:left; */
+  /* margin-top: 30px; */
+  width: 1px;
+  height: 160vw;
+  background: darkgray;
+  margin-left: 3vw;
+}
+
+.sxit{
+  /* float:left; */
+  /* margin-top: 30px; */
+  width: 1px;
+  height: 20vw;
+  background: darkgray;
+  margin-left: 3vw;
+}
 
 .portrait{
     border-radius: 100%;
