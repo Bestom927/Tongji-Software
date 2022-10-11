@@ -1,24 +1,25 @@
 import React from 'react';
 import { useState } from 'react';
 import ReactPlayer from 'react-player';
+import { Link } from "react-router-dom";
 import './Yangxin.css';
 
 const PromotionVideo = () => {
     return (
         <>
             <div className='title'><img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
-              style={{width:"3vw",marginTop:"-1vw"}}alt="model"/> Promotion Video</div><br />
+                style={{ width: "3vw", marginTop: "-1vw" }} alt="model" /> Promotion Video</div><br />
             <div className='description'>Explain our project to the community and other audiences in an easy to understand way.</div>
             <br />
 
             <div className='videoInfo'>
                 <div className='video'>
-                <iframe title="Tongji_Software: Anti-Protein: Make CRISPR System Great Again (2022) - Project Promotion [English]" width="560" height="315" src="https://video.igem.org/videos/embed/56a0d3e2-646b-42ed-8f53-dbb5c43678b0" 
-                    frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"
-                    style={{width:"80vw",height:"80vh"}}></iframe>
+                    <iframe title="Tongji_Software: Anti-Protein: Make CRISPR System Great Again (2022) - Project Promotion [English]" width="560" height="315" src="https://video.igem.org/videos/embed/56a0d3e2-646b-42ed-8f53-dbb5c43678b0"
+                        frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"
+                        style={{ width: "80vw", height: "80vh" }}></iframe>
                 </div>
             </div>
-            
+
             <br />
 
             <div className='detail'>
@@ -36,9 +37,16 @@ const PromotionVideo = () => {
 const GameEducation = () => {
     return (
         <>
-            <div className='title'>Game & Education</div><br />
-            <div className='description'>An education game designed for 6-18 students to help them knowing the basic knowledge of synthetic biology and the relationship between the several roles.</div>
-            <br />
+            <div className='GETop'>
+                <div className='GETopLeft'>
+                    <div className='title'>Game & Education</div><br />
+                    <div className='description'>An education game designed for 6-18 students to help them knowing the basic knowledge of synthetic biology and the relationship between the several roles.</div>
+                </div>
+                <div className='GETopRight'>
+                    <Link className='GELink' to="/tongji-software/education">More Info</Link>
+                </div>
+            </div>
+            <br /><br />
 
             <div className='videoInfo'>
                 <div className='video'>
