@@ -398,21 +398,6 @@ console.log(card);
 </Row>
 
 
-<br/>
-<br/>
-<br/>
-
-<Row>
-<Col md={{span:3,offset:2}}>
-
-<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Dr. Jing Zhang</h3>
-</Col>
-
-<Col md={{span:4,offset:0}}>
-<p>offered us various support for the project.</p>
-
-</Col>
-</Row>
 
 
 <br/>
