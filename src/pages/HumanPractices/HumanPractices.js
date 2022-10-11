@@ -58,7 +58,7 @@ function HumanPractices ()  {
   return (
     <div>
       <img src="https://static.igem.wiki/teams/4272/wiki/hp-img1.png" alt="hp-page-img1" 
-      width={"1480px"}/>
+      width={"100%"}/>
       <br/><br/>
       <br/><br/>
      <Row>

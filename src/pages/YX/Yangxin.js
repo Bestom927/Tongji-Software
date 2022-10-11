@@ -3,13 +3,16 @@ import { useState } from 'react';
 import ReactPlayer from 'react-player';
 import { Link } from "react-router-dom";
 import './Yangxin.css';
+import { Col,Row } from 'react-bootstrap';
 
 const PromotionVideo = () => {
     return (
         <>
-            <div className='title'><img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
-                style={{ width: "3vw", marginTop: "-1vw" }} alt="model" /> Promotion Video</div><br />
+        <Col md={{offset:1}}>
+            <h1 className='title'>Promotion Video</h1>
+            <br />
             <div className='description'>Explain our project to the community and other audiences in an easy to understand way.</div>
+        </Col>
             <br />
 
             <div className='videoInfo'>
@@ -21,14 +24,17 @@ const PromotionVideo = () => {
             </div>
 
             <br />
-
+            <Col md={{offset:1}}>
             <div className='detail'>
-                <span className='detailTitle'>Video concept</span>
+                <span className='detailTitle'><img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
+                style={{ width: "3vw", marginTop: "-1vw" }} alt="model" /> Video concept</span>
+                <br/><br/>
                 <div className='detailText'>
                     This video starts with the basic characteristics of genes, the current difficulties faced by gene editing and the solutions. Finally, it introduces the anti crispr we choose and how to find and select, and explains our core drivers and why we think it is so important that it is worth exploring.
                 </div>
             </div>
-            <br /><br />
+            </Col>
+            <br /><br /><br/><br/>
 
         </>
     )
@@ -37,15 +43,38 @@ const PromotionVideo = () => {
 const GameEducation = () => {
     return (
         <>
-            <div className='GETop'>
-                <div className='GETopLeft'>
-                    <div className='title'>Game & Education</div><br />
-                    <div className='description'>An education game designed for 6-18 students to help them knowing the basic knowledge of synthetic biology and the relationship between the several roles.</div>
-                </div>
-                <div className='GETopRight'>
-                    <Link className='GELink' to="/tongji-software/education">More Info</Link>
-                </div>
-            </div>
+
+        
+    <Row>
+      <Col md={{offset:1,span:8}}>
+      <h1 className='head2' style={{
+            color:"#2e77e5",
+         }}
+        >Game & Education</h1>
+      </Col>
+         
+        <Link style={{
+            marginLeft:"5vw",
+            textAlign:"center",
+            marginRight:"0",
+            background:"#2e77e5",
+            height:"6vh",
+            width:"10vw",
+            borderRadius:"5vw",
+            color:"white",
+            paddingTop:"1vh",
+            fontSize:"x-large",
+            textDecoration:"none",
+        }}to="/tongji-software/software">More Info
+       </Link>
+      </Row>
+      <Col md={{span:6,offset:1}}>
+       <p style={{fontSize:"x-large"}}>An education game designed for 6-18 students to help them knowing the basic knowledge of synthetic biology and the relationship between the several roles.
+                
+       </p>
+      </Col>
+
+
             <br /><br />
 
             <div className='videoInfo'>
