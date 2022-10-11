@@ -9,7 +9,7 @@
 .software-button-box{
 	position: absolute;
 	width: 100%;
-	margin-top: 54vh;
+	margin-top: 28vw;
 }
 
 
@@ -22,7 +22,7 @@
 	font-size: 2vmin;
 	color: white;
 	border: 0;
-	margin-left: 38vw;
+	margin-left: 42vw;
 }
 
 
@@ -41,7 +41,7 @@
 /* 内容盒子 */
 .software-content-box{
 	width: 80vw;
-	height: 65vh;
+	height: 50vh;
 	margin-left: 10vw;
 	position: relative;
 }
@@ -51,10 +51,10 @@
 .software-blue-box{
 	position: absolute;
 	background-color: #0067EC;
-	width: 26vw;
+	width: 28vw;
 	height:26vw;
 	margin-top: 2vh;
-	margin-left: 6vw;
+	margin-left: 3vw;
 	border-radius: 2vmin 2vmin 2vmin 2vmin;
 }
 
@@ -69,7 +69,7 @@
 	margin-top: 5vh;
 	width: 40vw;
 	height:24vw;
-	margin-left:35vw;
+	margin-left:36vw;
 }
 
 .software-white-box-content{
