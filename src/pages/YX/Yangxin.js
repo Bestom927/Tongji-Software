@@ -53,20 +53,20 @@ const GameEducation = () => {
         >Game & Education</h1>
       </Col>
          
-        <Link style={{
-            marginLeft:"5vw",
-            textAlign:"center",
-            marginRight:"0",
-            background:"#2e77e5",
-            height:"6vh",
-            width:"10vw",
-            borderRadius:"5vw",
-            color:"white",
-            paddingTop:"1vh",
-            fontSize:"x-large",
-            textDecoration:"none",
-        }}to="/tongji-software/software">More Info
-       </Link>
+      <Link style={{
+                  textAlign:"center",
+                  marginRight:"0",
+                  background:"#2e77e5",
+                  height:"4vh",
+                  width:"8vw",
+                  borderRadius:"5vw",
+                  color:"white",
+                  paddingTop:"0.5vh",
+                  fontSize:"2vh",
+                  textDecoration:"none",
+                  marginTop:"6vh"
+              }}to="/tongji-software/communication">More Info
+            </Link>
       </Row>
       <Col md={{span:6,offset:1}}>
        <p style={{fontSize:"x-large"}}>An education game designed for 6-18 students to help them knowing the basic knowledge of synthetic biology and the relationship between the several roles.
