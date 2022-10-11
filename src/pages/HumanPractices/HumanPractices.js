@@ -111,11 +111,7 @@ function HumanPractices ()  {
 <br/><br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<<<<<<< HEAD
-<h2 style={{color:"#0072F9",fontSize:"38px"}}>Timeline</h2>
-=======
 <h2 style={{color:"#2e77e5",fontSize:"38px"}}>Timeline(Drag me!)</h2>
->>>>>>> 3142fd76fb8fb214c773d0371aa6f7345b873503
 </Col>
 </Row>
 
@@ -225,11 +221,7 @@ To gain insight into the specific views on gene editing and Acr proteins, we sel
 <br/><br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<<<<<<< HEAD
-<h2 style={{color:"#0072F9",fontSize:"38px"}}>Timeline</h2>
-=======
 <h2 style={{color:"#2e77e5",fontSize:"38px"}}>Timeline(Drag me!)</h2>
->>>>>>> 3142fd76fb8fb214c773d0371aa6f7345b873503
 </Col>
 </Row>
 <br/>
