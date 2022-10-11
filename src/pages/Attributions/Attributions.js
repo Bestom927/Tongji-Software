@@ -420,6 +420,9 @@ console.log(card);
 <br/>
 </div>
 
+
+
+
         </div>
         
     )
