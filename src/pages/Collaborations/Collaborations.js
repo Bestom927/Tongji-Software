@@ -1,12 +1,8 @@
 import React, { useState }  from 'react'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import StarLg from '../CC/starlg';
-import Slider from '@mui/material/Slider';
-import Card from 'react-bootstrap/Card';
 import '../CC/cc.css';
-import CardGroup from 'react-bootstrap/CardGroup';
-import { Container } from '@mui/system';
+
 const Collaborations = () => {
   return (
     <div>
