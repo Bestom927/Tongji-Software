@@ -6,6 +6,7 @@ import '../CC/cc.css';
 const Collaborations = () => {
   return (
     <div>
+      
  <img src="https://static.igem.wiki/teams/4272/wiki/coll1.png" alt="hp-page-img1" 
       width={"100%"}/>
       <br/><br/>
@@ -82,7 +83,7 @@ In fact, the collaboration between the two teams went far beyond the scope of "C
       <Col md={{offset:1}}>
       <h2 style={{color:"#0072F9" ,fontWeight:"bold"}}>DUT_China</h2>
       </Col>
-      </Row>
+      </Row><div id='problem_bg1'></div>
       <br/>
 
 <img src="https://static.igem.wiki/teams/4272/wiki/coll6.png" alt="coll5" 
@@ -111,6 +112,7 @@ Meanwhile, we suggested to DUT_China team member that human gene SNPs could be t
 During the discussion, we suggested that USTC_Software's project could take interactions and docking between reactants into account for enzyme selection. USTC_Software students pointed out that we should validate our project with examples such as experiments, rather than data from databases. These suggestions from each other really shed light on projects implementation for both sides. 
 </p>
 <br/>
+<div id='problem_bg2'></div>
 <Row>
       <Col md={{offset:1}}>
       <h2 style={{color:"#dedede" ,fontWeight:"bold"}}>SJTU_Software</h2>
