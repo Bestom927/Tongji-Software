@@ -422,9 +422,13 @@ console.log(card);
 <br/>
 <br/>
 </div>
+<p style={{fontWeight:"bold",fontSize:"2vw",marginLeft:"10vw",width:"60vw"}}>
+We also thank all the teachers, doctors, researchers, students, etc. Our project could not have been possible without your advice and help.
+</p>
 
-
-
+<br/>
+<br/>
+<br/>
 
         </div>
         
