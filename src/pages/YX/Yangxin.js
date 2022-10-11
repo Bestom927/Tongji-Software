@@ -8,9 +8,10 @@ import { Col,Row } from 'react-bootstrap';
 const PromotionVideo = () => {
     return (
         <>
-        <Col md={{offset:1}}>
+        <Col md={{offset:0}}>
             <h1 className='title'>Promotion Video</h1>
-            <br />
+            <br /></Col>
+            <Col md={{offset:1,span:6}}>
             <div className='description'>Explain our project to the community and other audiences in an easy to understand way.</div>
         </Col>
             <br />
@@ -68,7 +69,7 @@ const GameEducation = () => {
               }}to="/tongji-software/communication">More Info
             </Link>
       </Row>
-      <Col md={{span:6,offset:1}}>
+      <Col md={{span:7,offset:1}}>
        <p style={{fontSize:"x-large"}}>An education game designed for 6-18 students to help them knowing the basic knowledge of synthetic biology and the relationship between the several roles.
                 
        </p>
