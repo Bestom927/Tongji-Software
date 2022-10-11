@@ -66,7 +66,7 @@ First, build each tree in the random forest according to the following rules:
 </p>
 <p>
 N represents the number of training cases (samples), and M represents the number of features. Input feature number m to determine the decision result of a node on the decision tree; Where m should be much less than M. Take N samples from N training cases (samples) in the way of put back sampling to form a training set (bootstrap sampling), and use the unexampled cases (samples) for prediction to evaluate the error. For each node, m features are selected randomly, and the decision of each node in the decision tree is determined based on these features. According to these m characteristics, the optimal splitting mode is calculated. Each tree will grow completely without pruning, which may be adopted after building a normal tree classifier).
-In this model, we mainly select the following features: Annotation, hth, protein_length, directon, directon_size, directon_protein_lengths_mean, directon_spacing, hth_downstream, protein_annotated, isoelectric_point, hydrophobicity, instability, weight, p_frequent.
+In this model, we mainly select the following features:<b>Annotation, hth, protein_length, directon, directon_size, directon_protein_lengths_mean, directon_spacing, hth_downstream, protein_annotated, isoelectric_point, hydrophobicity, instability, weight, p_frequent.</b> 
 </p>
 <p>
 After completing the construction of the decision tree, the random forest is constructed(Figure 2), and the data and features to be selected are randomly selected. On the random selection of data: First, we take the sampling with returns from the original dataset to construct a sub dataset. The data volume of the sub dataset is the same as that of the original dataset. Elements in different sub data sets can be repeated, and elements in the same sub data set can also be repeated. Second, use the sub data set to build a sub decision tree, put this data into each sub decision tree, and each sub decision tree outputs a result. Finally, if new data need to be classified through the random forest, the output of the random forest can be obtained by voting the judgment results of the sub decision tree. As for the random selection of features to be selected, similar to the random selection of data sets, each splitting process of subtrees in a random forest does not use all the features to be selected, but randomly selects a certain feature from all the features to be selected, and then selects the best feature from the randomly selected features. This can make the decision trees in the random forest different from each other, improve the diversity of the system, and thus improve the classification performance.
@@ -82,10 +82,10 @@ After completing the construction of the decision tree, the random forest is con
 <br/><br/>
 
 
-<p>Advantages of the random forest algorithm: high accuracy, can effectively run on large data sets, introduces randomness, and is not easy to over fit. The random forest has a good ability to resist noise, can process very high dimensional data, and does not need to reduce dimensions. It can not only process discrete data, but also process continuous data, and does not need to standardize the data set, and the training speed is fast. It can obtain the ranking of variable importance It is easy to realize parallelization, get good results even for the default value problem, and the number of super parameters is not very large. In addition, we can intuitively understand their meanings.
+<p><b>Advantages of the random forest algorithm:</b><span style={{color:"#2e77e5"}}> high accuracy, can effectively run on large data sets, introduces randomness, and is not easy to over fit.</span> The random forest has a good ability to resist noise, can process very high dimensional data, and does not need to reduce dimensions. It can not only process discrete data, but also process continuous data, and does not need to standardize the data set, and the training speed is fast. It can obtain the ranking of variable importance It is easy to realize parallelization, get good results even for the default value problem, and the number of super parameters is not very large. In addition, we can intuitively understand their meanings.
 </p>
-<p>
-Disadvantages of random forest algorithm: Although the random forest algorithm is fast enough, when the number of decision trees in the random forest is large, the space and time required for training will be large, which will lead to slower models. Therefore, in practical application, if the real-time requirement is very high, it is better to choose other algorithms.
+<p><b>
+Disadvantages of random forest algorithm:</b><span style={{color:"#2e77e5"}}> Although the random forest algorithm is fast enough, when the number of decision trees in the random forest is large, the space and time required for training will be large, which will lead to slower models.</span> Therefore, in practical application, if the real-time requirement is very high, it is better to choose other algorithms.
 
 </p>
 
@@ -127,6 +127,9 @@ That is, arrange and combine the possible values of each parameter, and list all
 
 
 
+      <br/>
+          <br/>
+          <br/>
 
           <br/>
    </div>
