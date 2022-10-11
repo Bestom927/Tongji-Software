@@ -12,19 +12,19 @@ const Footer = () => {
                 <div style={{bottom:"30px"}}>
 
                     <a href="https://gitlab.igem.org/2022/tongji-software">
-                    <img src={require("../../../src/assets/igem.png")} alt="logo"></img>
+                    <img src="https://static.igem.wiki/teams/4272/wiki/igem.png" alt="logo"></img>
                     </a>
                     
                     <a href="https://gitlab.igem.org/2022/tongji-software">
-                    <img src={require("../../../src/assets/bilibili.png")} alt="logo"></img>
+                    <img src="https://static.igem.wiki/teams/4272/wiki/bilibili.png" alt="logo"></img>
                     </a>
 
                     <a href="https://gitlab.igem.org/2022/tongji-software">
-                    <img src={require("../../../src/assets/github.png")} alt="logo"></img>
+                    <img src="https://static.igem.wiki/teams/4272/wiki/github.png" alt="logo"></img>
                     </a>
 
                     <a href="https://gitlab.igem.org/2022/tongji-software">
-                    <img src={require("../../../src/assets/gitlab_logo.png")} alt="logo"
+                    <img src="https://static.igem.wiki/teams/4272/wiki/gitlab-logo.png" alt="logo"
                     style={{height:"100px"}}
                     ></img></a>
                 

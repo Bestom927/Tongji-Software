@@ -10,7 +10,7 @@ const Safety = () => {
          }}
         >Safety</h1>
         </Col>
-    <Col md={{offset:1,span:6}}>
+    <Col md={{offset:2,span:7}}>
     <p>We are doing software project that does not involve experiments with organisms or parts. We use public data to build a model to identify Anti-CRISPR Proteins which are candidate tools for synthetic biology, it is safe and secure.</p>
     </Col>
     </>
