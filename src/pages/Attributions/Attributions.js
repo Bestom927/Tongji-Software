@@ -17,18 +17,21 @@ const [card,setCard]=useState("biology");
 console.log(card);
     return (
         <div className='attributions-container'>
-            <img src={require("../../assets/2-1.png")} alt="attr-page-img1" />
        
-      <Row>
-      <Col md={{offset:1}}>
-      <h1 style={{color:"#2e77e5" ,fontWeight:"bold"}}> Attributions</h1>
-      </Col>
-      </Row>
+      <h1 style={{color:"white" ,
+                fontSize:"80px",
+                fontWeight:"bold",
+                marginTop:"50vh",
+                marginLeft:"60vw",
+                position:"absolute",
+                textShadow:"0px 0px 10px #2e77e5"}}> Attributions</h1>
      
+     <img src="https://static.igem.wiki/teams/4272/wiki/bg-attri.jpg" 
+            style={{width:"100%",height:"90vh"}} alt="attr-page-img1" />
       <br/>
 
       <Row>
-      <Col md={{span:8,offset:1}}>
+      <Col md={{span:8,offset:1}}><br/>
        <p style={{fontSize:'18px'}}>Our team members come from the Academy of Life Sciences and Technology, the Academy of Design and Innovation, the Academy of Software and the Academy of Mathematical Sciences. All of them assisted each other throughout the project and actively participated in all parts of the work. At the same time, we were able to exchange ideas and do some brainstorming with new inspirations. Each member was very important, and a indivisible part of our team family.</p>
       <br/>
        <Row>

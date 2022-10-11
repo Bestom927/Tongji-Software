@@ -10,17 +10,25 @@ import Software from '../../components/Software/Software';
 const Home = () => {
     return (
         <>
-        
-            <div className='home-container'
-                style={{
-                    height: 1000,
-                    width: "100%",
-                    backgroundImage: "url(" + require("../../assets/bg-img.jpeg") + ")",
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'cover'
-                }}>
-                    
-            </div>
+
+            <h1 style={{
+                color:"white",
+                marginTop:"30vh",
+                marginLeft:"10vw",
+                position:"absolute",
+                fontSize:"100px",
+                textShadow:"0px 0px 10px"
+            }}>AcrGPS
+            <div style={{
+                color:"white",
+                fontSize:"60px",
+            }}>Anti-CRISPR Genome-<br/>based Predicting <br/>Software</div>
+
+            </h1>
+            
+            <img src="https://static.igem.wiki/teams/4272/wiki/bg-home.jpg"
+            style={{width:"100%",
+            height:"90vh"}} alt="home-bg"></img>
             <CpisprSystem/>
             <ProblemToBeSolved/>
             <WhatToDo />
