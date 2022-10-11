@@ -55,7 +55,7 @@ function GamePhotoPlayer(){
 const EduTitle = () => {
   return (
       <div className='edu-title'>
-          <div id='edu-bigtitle'>Education</div>
+          <div id='edu-bigtitle'>Communication&Education</div>
           <div id='edu-normaltitle'>Anti-CRISPR Genome-based Predicting Software</div>
       </div>
   )

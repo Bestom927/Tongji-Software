@@ -33,15 +33,15 @@ const NavBar = () => {
                             <NavDropdown.Item href="/tongji-software/proof-of-concept">Proof of Concept</NavDropdown.Item>
                         </NavDropdown>
 
-                        <NavDropdown title="Education" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/tongji-software/communication">Communication</NavDropdown.Item>
+                        <NavDropdown title="Communication&Education" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/tongji-software/communication">Communication&Education</NavDropdown.Item>
                         </NavDropdown>
 
                         <NavDropdown title="Team" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/tongji-software/partnership">Partnership</NavDropdown.Item>
+                            <NavDropdown.Item href="/tongji-software/safety">Safety</NavDropdown.Item>
+                            <NavDropdown.Item href="/tongji-software/notebook">Notebook</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="/tongji-software/safety">Safety</Nav.Link>
-                        <Nav.Link href="/tongji-software/notebook">Notebook</Nav.Link>
 
                         <NavDropdown title="Awards" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/tongji-software/education">Education</NavDropdown.Item>

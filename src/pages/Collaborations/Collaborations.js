@@ -7,7 +7,7 @@ const Collaborations = () => {
   return (
     <div>
  <img src="https://static.igem.wiki/teams/4272/wiki/coll1.png" alt="hp-page-img1" 
-      width={"1430vw"}/>
+      width={"100%"}/>
       <br/><br/>
       <br/><br/>
      <Row>

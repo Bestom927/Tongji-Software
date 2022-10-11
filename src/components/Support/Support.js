@@ -18,7 +18,7 @@ const Support = () => {
        Support thing.Support thing.Support thing.Support thing.Support thing.Support thing.
        </p>
       </Col>
-
+      <br/>
       <Col md={{span:8,offset:1}}>
         <Link style={{
             background:"#0072F9",
@@ -31,6 +31,7 @@ const Support = () => {
         }}to="/tongji-software/partnership">More Info
        </Link>
       </Col>
+      <br/><br/><br/>
         </div>
     )
 } 
