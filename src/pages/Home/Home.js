@@ -5,6 +5,8 @@ import Support from '../../../src/components/Support/Support.js'
 import WhatToDo from '../../components/WhatToDo/WhatToDo';
 import CpisprSystem from '../../components/CpisprSystem/CpisprSystem';
 import ProblemToBeSolved from '../../components/ProblemToBeSolved/ProblemToBeSolved';
+import WhyImportant from '../../components/WhyImportant/WhyImportant';
+import Software from '../../components/Software/Software';
 const Home = () => {
     return (
         <>
@@ -24,6 +26,11 @@ const Home = () => {
             <WhatToDo />
             
             <Semicircle />
+            
+            
+            <WhyImportant />
+            <Software />
+
             <PromotionVideo /><br /><br />
             <GameEducation />
             <Brochure />

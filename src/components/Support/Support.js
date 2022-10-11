@@ -27,6 +27,7 @@ const Support = () => {
             borderRadius:"30px",
             color:"white",
             padding:"10px",
+            textDecoration:"none",
         }}to="/tongji-software/partnership">More Info
        </Link>
       </Col>
