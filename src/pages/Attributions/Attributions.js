@@ -24,7 +24,7 @@ console.log(card);
                 marginTop:"50vh",
                 marginLeft:"60vw",
                 position:"absolute",
-                textShadow:"0px 0px 10px #2e77e5"}}> Attributions</h1>
+                textShadow:"0px 0px 10px #0072F9"}}> Attributions</h1>
      
      <img src="https://static.igem.wiki/teams/4272/wiki/bg-attri.jpg" 
             style={{width:"100%",height:"90vh"}} alt="attr-page-img1" />
@@ -86,8 +86,8 @@ console.log(card);
         <div >
       <Card border="light" style={{ width: '18rem'}} className='card' >
       <Card.Body>
-     <h5 style={{color:"#2e77e5"}}>What we</h5>
-     <h5 style={{color:"#2e77e5"}}> have accomplished?</h5>
+     <h5 style={{color:"#0072F9"}}>What we</h5>
+     <h5 style={{color:"#0072F9"}}> have accomplished?</h5>
     
      <br/><br/>
      <p><CheckboxIcon/>&nbsp;&nbsp;Software</p>
@@ -110,7 +110,7 @@ console.log(card);
 
       <Row>
       <Col md={{offset:1}}>
-      <h1 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Details</h1>
+      <h1 style={{color:"#0072F9" ,fontWeight:"bold"}}>Details</h1>
       </Col>
       </Row>
 <br/><br/>
@@ -119,7 +119,7 @@ console.log(card);
       <Row>
       <Col md={{span:3,offset:2}}>
         <br/>
-      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Zhang Shiyue</h3>
+      <h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Zhang Shiyue</h3>
       </Col>
 
       <Col md={{span:4,offset:0}}>
@@ -138,7 +138,7 @@ console.log(card);
       <Row>
       <Col md={{span:3,offset:2}}>
         <br/>
-      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Zheng Yulong</h3>
+      <h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Zheng Yulong</h3>
       </Col>
 
       <Col md={{span:4,offset:0}}>
@@ -158,7 +158,7 @@ console.log(card);
       <Row>
       <Col md={{span:3,offset:2}}>
         <br/>
-      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Zhang Zihan</h3>
+      <h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Zhang Zihan</h3>
       </Col>
 
       <Col md={{span:4,offset:0}}>
@@ -177,7 +177,7 @@ console.log(card);
       <Row>
       <Col md={{span:3,offset:2}}>
       <br/>
-      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Li Xuechen</h3>
+      <h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Li Xuechen</h3>
       </Col>
 
       <Col md={{span:4,offset:0}}>
@@ -193,7 +193,7 @@ console.log(card);
       <Row>
       <Col md={{span:3,offset:2}}>
       <br/><br/>
-      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Li Shiyu</h3>
+      <h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Li Shiyu</h3>
       </Col>
 
       <Col md={{span:4,offset:0}}>
@@ -211,7 +211,7 @@ console.log(card);
       <Row>
       <Col md={{span:3,offset:2}}>
       <br/><br/>
-      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Zhou Shixuan</h3>
+      <h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Zhou Shixuan</h3>
       </Col>
 
       <Col md={{span:4,offset:0}}>
@@ -231,7 +231,7 @@ console.log(card);
       <Row>
       <Col md={{span:3,offset:2}}>
       <br/>
-      <h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Zhang Jiani</h3>
+      <h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Zhang Jiani</h3>
       </Col>
 
       <Col md={{span:4,offset:0}}>
@@ -247,7 +247,7 @@ console.log(card);
 <Row>
 <Col md={{span:3,offset:2}}>
 <br/>
-<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Yang Xin</h3>
+<h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Yang Xin</h3>
 </Col>
 
 <Col md={{span:4,offset:0}}>
@@ -264,7 +264,7 @@ console.log(card);
 <Row>
 <Col md={{span:3,offset:2}}>
 <br/>
-<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Yuan Fengye</h3>
+<h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Yuan Fengye</h3>
 </Col>
 
 <Col md={{span:4,offset:0}}>
@@ -281,7 +281,7 @@ console.log(card);
 <Row>
 <Col md={{span:3,offset:2}}>
 <br/>
-<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Chen Chen</h3>
+<h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Chen Chen</h3>
 </Col>
 
 <Col md={{span:4,offset:0}}>
@@ -296,7 +296,7 @@ console.log(card);
 
 
       <div className="hightDiscuss">
-      <h1 style={{color:"#2e77e5" ,fontWeight:"bold",textAlign:"center"}}>Hightlight discussion</h1>
+      <h1 style={{color:"#0072F9" ,fontWeight:"bold",textAlign:"center"}}>Hightlight discussion</h1>
        <p style={{textAlign:"center" ,fontSize:'18px'}}>Here to share some highlight discussion while we generate our concept and software.</p>
      
       <Row>
@@ -319,7 +319,7 @@ console.log(card);
 
       <Row>
       <Col md={{offset:2}}>
-        <div class="talk-bubble tri-right round right-in" style={{backgroundColor:"#2e77e5",color:"white"}}>
+        <div class="talk-bubble tri-right round right-in" style={{backgroundColor:"#0072F9",color:"white"}}>
   <div class="talktext">
   <QuotUp />
     <p>
@@ -359,7 +359,7 @@ console.log(card);
 <div className="acknowledgements">
 <Row>
       <Col md={{offset:1}}>
-      <h1 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Acknowledgements</h1>
+      <h1 style={{color:"#0072F9" ,fontWeight:"bold"}}>Acknowledgements</h1>
       </Col>
       </Row>
       <br/>
@@ -374,7 +374,7 @@ console.log(card);
 <Row>
 <Col md={{span:3,offset:2}}>
 
-<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Dr. Qi Liu</h3>
+<h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Dr. Qi Liu</h3>
 </Col>
 
 <Col md={{span:4,offset:0}}>
@@ -391,7 +391,7 @@ console.log(card);
 <Row>
 <Col md={{span:3,offset:2}}>
 
-<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Dr. Jing Zhang</h3>
+<h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Dr. Jing Zhang</h3>
 </Col>
 
 <Col md={{span:4,offset:0}}>
@@ -410,7 +410,7 @@ console.log(card);
 <Row>
 <Col md={{span:3,offset:2}}>
 
-<h3 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Dr. Ye Leng</h3>
+<h3 style={{color:"#0072F9" ,fontWeight:"bold"}}>Dr. Ye Leng</h3>
 </Col>
 
 <Col md={{span:4,offset:0}}>

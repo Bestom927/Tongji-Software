@@ -8,7 +8,7 @@ const Support = () => {
         <div id="support" >
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Support</h2>
       </Col>
@@ -21,7 +21,7 @@ const Support = () => {
 
       <Col md={{span:8,offset:1}}>
         <Link style={{
-            background:"#2e77e5",
+            background:"#0072F9",
             height:"30px",
             width:"50px",
             borderRadius:"30px",

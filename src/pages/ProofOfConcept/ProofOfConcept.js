@@ -13,7 +13,7 @@ const ProofOfConcept = () => {
       
       
       <h1 className='head1' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
             fontSize:"50px",
          }}
         >Proof of concept</h1>
@@ -53,7 +53,7 @@ const ProofOfConcept = () => {
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
             marginTop:"5vh",
             marginBottom:"3vh",
          }}
@@ -77,7 +77,7 @@ const ProofOfConcept = () => {
        
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
             marginTop:"5vh",
             marginBottom:"3vh",
          }}
@@ -117,7 +117,7 @@ const ProofOfConcept = () => {
 
        <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
             marginTop:"5vh",
             marginBottom:"3vh",
          }}
@@ -136,7 +136,7 @@ Taking data from a sample dataset for cross validation, the correct rate can be 
 
        <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
             marginTop:"5vh",
             marginBottom:"3vh",
          }}

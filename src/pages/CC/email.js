@@ -9,7 +9,7 @@ export default function Email1(){
 <br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h2 style={{color:"#2e77e5",fontSize:"38px"}}>Difficulties & Solutions & Details</h2>
+<h2 style={{color:"#0072F9",fontSize:"38px"}}>Difficulties & Solutions & Details</h2>
 </Col>
 </Row>
 <br/>
@@ -44,7 +44,7 @@ export default function Email1(){
   <img src="https://static.igem.wiki/teams/4272/wiki/chat3.png" 
   alt="chat2" width="550vw" style={{ borderRadius:"10%",marginLeft:0}}/>
   <br/><br/>
-  <p style={{color:"#2e77e5",width:"30vw",marginLeft:"1vw"}}>Here we share some of the contents of our correspondence. It can be seen that Professor Liu Qi has fully communicated and guided our entire project. We communicate in Chinese, and here we have a complete translation and explanation.</p>
+  <p style={{color:"#0072F9",width:"30vw",marginLeft:"1vw"}}>Here we share some of the contents of our correspondence. It can be seen that Professor Liu Qi has fully communicated and guided our entire project. We communicate in Chinese, and here we have a complete translation and explanation.</p>
   </Col>
 </Row>
 
