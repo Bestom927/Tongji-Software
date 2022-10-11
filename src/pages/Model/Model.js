@@ -291,6 +291,17 @@ That is, arrange and combine the possible values of each parameter, and list all
 
 
   <p>After the fitting function has tried all the parameter combinations, it returns a suitable classifier and automatically adjusts to the best parameter combination. You can use clf.best_ params_ Get parameter values.</p>
+      
+      
+      <p>[1] Chuan Dong, Ge-Fei Hao, Hong-Li Hua, Shuo Liu, Abraham Alemayehu Labena, Guoshi Chai, Jian Huang, Nini Rao, Feng-Biao Guo; Anti-CRISPRdb: a comprehensive online resource for anti-CRISPR proteins, Nucleic Acids Research, gkx835, https://doi.org/10.1093/nar/gkx835
+<br/>[2] Eitzinger S, Asif A, Watters KE, Iavarone AT, Knott GJ, Doudna JA, Minhas FUAA. Machine learning predicts new anti-CRISPR proteins. Nucleic Acids Res. 2020 May 21;48(9):4698-4708. doi: 10.1093/nar/gkaa219. PMID: 32286628; PMCID: PMC7229843.
+<br/>[3] Marchler-Bauer, A. et al. Cdd/sparcle: Functional classification of proteins via subfamily domain architectures. Nucleic Acids Res. 45, D200-D203 (2017)
+<br/>[4] Grazziotin, A. L., Koonin, E. V. & Kristensen, D. M. Prokaryotic virus orthologous groups (pvogs): a resource for comparative genomics and protein family annotation. Nucleic Acids Res. 45, D491-D498 (2017)
+<br/>[5] SeemannT. Prokka: rapid prokaryotic genome annotation. Bioinformatics 2014 Jul 15;30(14):2068-9. PMID:24642063
+<br/>[6] Gussow, A.B., Park, A.E., Borges, A.L. et al. Machine-learning approach expands the repertoire of anti-CRISPR protein families. Nat Commun 11, 3784 (2020). https://doi.org/10.1038/s41467-020-17652-0
+<br/>[7] Fu, Limin et al. "CD-HIT: accelerated for clustering the next-generation sequencing data." Bioinformatics (Oxford, England) vol. 28,23 (2012): 3150-2. doi:10.1093/bioinformatics/bts565
+</p>
+      
       </Col>
 
 

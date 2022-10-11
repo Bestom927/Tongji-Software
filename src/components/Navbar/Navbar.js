@@ -43,16 +43,11 @@ const NavBar = () => {
                             <NavDropdown.Item href="/tongji-software/notebook">Notebook</NavDropdown.Item>
                         </NavDropdown>
 
-                        <NavDropdown title="Awards" id="basic-nav-dropdown">
+                        <NavDropdown title="Special-Prizes" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/tongji-software/human-practices">Human practices</NavDropdown.Item>
                             <NavDropdown.Item href="/tongji-software/education">Education</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/entrepreneurship">Entrepreneurship</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/hardware">Hardware</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/inclusivity">Inclusivity</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/measurement">Measurement</NavDropdown.Item>
                             <NavDropdown.Item href="/tongji-software/model">Model</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/plant">Plant</NavDropdown.Item>
                             <NavDropdown.Item href="/tongji-software/software">Software</NavDropdown.Item>
-                            <NavDropdown.Item href="/tongji-software/sustainable">Sustainable</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                     

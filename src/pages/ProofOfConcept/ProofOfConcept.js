@@ -114,6 +114,24 @@ const ProofOfConcept = () => {
         style={{ }} alt="proof"/>  </a>
        </Col>
     
+       <Col md={{offset:1}}>
+      <h2 className='head2' style={{
+            color:"#0072F9",
+            marginTop:"5vh",
+            marginBottom:"3vh",
+         }}
+        >Method
+        </h2>
+      </Col>
+      <Col md={{span:10,offset:1}}>
+       <p>
+       Due to the small number of positive samples in our data, using the conventional training test verification set division will lead to too little positive data training during the actual training of the model, which will affect the final model fitting effect. Therefore, we adopted a five fold cross validation method, that is, we divided the samples into five on average, and took one of them as the validation set and the rest as the training set to train the model. After five rounds of repetition, all the data can be used to build the model. Finally, the average method is used to reasonably represent the model performance. As follows:
+
+</p>
+<img src="https://static.igem.wiki/teams/4272/wiki/proof7.png" 
+        style={{ width:"60%",marginLeft:"20%"}} alt="proof"/> 
+<p>After this, we tried a comparison with the existing tool acrdb, trying the genomes (Archaea) that they provided as well as the genomic data of several phages that we tested for use, and evaluated our results by taking the intersection of the identification results of the two. A considerable number of potential ACR proteins were identified by both in archaeal genomes, and there was a large degree of intersection between our and their identification results (the number of intersections increased when the acrdb confidence threshold was downregulated and incorporated into longer protein analyses), and when we tested phages we found that we could find several potential ACR proteins none of them could find (potentially related to their inclusion in the analysis of guilt by association), It can be further illustrated that our algorithm achieved better results.</p>
+       </Col>
 
        <Col md={{offset:1}}>
       <h2 className='head2' style={{
@@ -128,7 +146,6 @@ const ProofOfConcept = () => {
        <p>
         
 Taking data from a sample dataset for cross validation, the correct rate can be maintained above 80%, after aligning the same sequence with existing query tools, the intersection rate can be above 81% (22 predicted positive results), and we can identify many sequences missed by other algorithms (we can identify more than 70% of sequences under equal accuracy limits). It can be argued that our algorithm better solves the limitations that ACR proteins are hard to discover, by allowing more ACR proteins to be identified for use in expansion databases under conditions that can provide genome-wide signatures.
-(details:------)
 
 </p>
        </Col>
