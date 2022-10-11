@@ -30,18 +30,18 @@ export default function Email1(){
   <p>
   After determining our initial idea, we talked with our advisor, Dr. Liu, about our needs and what we wanted to do since he had some attainments in the field of gene editing. During this process, our teacher also introduced us to many nice frontier directions at current, including PRIME editing, Cas modification, etc. Finally, the anti-CRISPR protein caught our attention. We also had a lively discussion by email on the current state of research in Anti-CRISPR and our research proposal, which led to the initial determination of our research topic.
   </p>
-  <img src="https://static.igem.wiki/teams/4272/wiki/chat1.png" 
+  <img src="https://static.igem.wiki/teams/4272/wiki/chat1.jpg" 
   alt="chat1" width="800vw" style={{ borderRadius:"10%"}}/>
   </Col>
 </Row>
 
 <Row>
   <Col >
-<img src="https://static.igem.wiki/teams/4272/wiki/chat2.png" 
+<img src="https://static.igem.wiki/teams/4272/wiki/chat2.jpg" 
   alt="chat2" width="700vw" style={{ borderRadius:"10%",marginLeft:"3vw"}}/></Col>
 
   <Col>
-  <img src="https://static.igem.wiki/teams/4272/wiki/chat3.png" 
+  <img src="https://static.igem.wiki/teams/4272/wiki/chat3.jpg" 
   alt="chat2" width="550vw" style={{ borderRadius:"10%",marginLeft:0}}/>
   <br/><br/>
   <p style={{color:"#0072F9",width:"30vw",marginLeft:"1vw"}}>Here we share some of the contents of our correspondence. It can be seen that Professor Liu Qi has fully communicated and guided our entire project. We communicate in Chinese, and here we have a complete translation and explanation.</p>

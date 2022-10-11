@@ -30,10 +30,10 @@ export default function Hpcom(){
   <p>
   After the initial determination of our design plan, we further communicated with Dr. Liu, hoping that he could evaluate the feasibility of our plan. Dr. Liu affirmed our idea and thought our project was innovative. He also pointed out some difficulties we might face, such as lack of data for our completion. This was a very great reference value for our project. With Dr. Liu's suggestion, we also changed part of our plans to make them more practical. At the same time, he also gave us guidance on the features and model selection in model training, which was very useful for our subsequent modeling process.
    </p>
-  <img src="https://static.igem.wiki/teams/4272/wiki/hpcom1.png" 
+  <img src="https://static.igem.wiki/teams/4272/wiki/hpcom1.jpg" 
   alt="hpc1" width="800vw" style={{ borderRadius:"10%"}}/>
 
-<img src="https://static.igem.wiki/teams/4272/wiki/hpcom2.png" 
+<img src="https://static.igem.wiki/teams/4272/wiki/hpcom2.jpg" 
   alt="hpc2" width="700vw" style={{ borderRadius:"10%",marginLeft:"3vw"}}/>
   </Col>
 </Row>
