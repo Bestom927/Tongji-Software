@@ -13,6 +13,7 @@ import Testing1 from '../CC/testing';
 import Questionaire1 from '../CC/qustionaire';
 import Interview1 from '../CC/intereview';
 import Hpcom from '../CC/hpcom';
+import HpcomTest from '../CC/hpcomtest';
 
 function HumanPractices ()  {
    const [value,setValue]=useState(1);
@@ -311,7 +312,93 @@ When our software was initially built, we invited some bioinformatics students t
 </CardGroup>
 </Container>
 
-<Hpcom/>
+{value!==2&&<Hpcom/>}
+{value===2&&<HpcomTest/>}
+<br/>
+<Row>
+  <Col md={{offset:1,span:10  }}>
+<h1 style={{color:"#2e77e5"}}> <StarLg/> &nbsp;Design & Improvement （July-September）</h1>
+</Col>
+
+</Row>
+<br/>
+<p style={{width:"80vw",marginLeft:"10vw"}}>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+We are constantly searching for the practical meaning of our project, hoping to find answers by visiting workers from various professional field. It is such a continuous communication process that help us not only gain a lot of different experiences, but also overturn some inherent ideas. This definitely is the importance of the human practice process, many facts are far from simply knowledge learning from books and the Internet.
+</p>
+<br/>
+<Row>
+  <Col md={{offset:1,span:10  }}>
+<h1 style={{color:"#2e77e5"}}>The Obstetrics & Gynecology Hospital of Fudan University  (September) </h1>
+</Col>
+
+</Row>
+
+<Row>
+  <Col md={{offset:1 ,span:5}}>
+  <img src="https://static.igem.wiki/teams/4272/wiki/hpl.png" 
+  alt="di2" width="550vw" style={{ borderRadius:"5%",marginLeft:0}}/>
+  </Col>
+
+  <Col md={{span:5}}>
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  <p style={{marginLeft:"0vw"}}>
+  In September 2022 our team went to The Obstetrics & Gynecology Hospital of Fudan University to talk to the doctors and introduce the iGEM competition and our project to them. They were excited when we talked about the Acr protein to improve the safety of gene editing. Probably, when we use gene editing in our usual biological experiments, the gene editing technology has been more mature because of the standardized and process-oriented operation to avoid the off-target effect of gene editing. However, in the medical field, it is very crucial to address off-target effects, and the safety of gene editing is at the first rank in research fields such as gene therapy. They believe that the Acr protein that we have mined is very useful and look forward to the day when this protein can bring great benefits to human beings.
+  </p>
+  </Col>
+</Row>
+
+<br/>
+<Row>
+  <Col md={{offset:1,span:10  }}>
+<h1 style={{color:"#2e77e5"}}>Erlian Primary School  (September)</h1>
+</Col>
+
+</Row>
+<br/>
+<p style={{width:"85vw",marginLeft:"8vw"}}>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+When we preparing for the communication with Erlian Elementary School, we shared with Mr. Xia, the teacher of the elementary school's science and technology class, and introduced synthetic biology and the iGEM competition to him. We also asked him if a project like ours could do anything for younger children like elementary school students. He said, "Actually, elementary school students are more knowledgeable than we think, probably because of the advanced internet. There is a lot of knowledge that we think children won't know, but that just comes from our subjective assumption." This also inspired us to go into elementary schools to conduct a gene editing science curriculum (see Communication) to bring more attention to gene editing in our lives. The successful completion of our course was supported and endorsed by him, and he alse helped us with many formalities.
+</p>
+<br/>
+<Container>
+  <img src="https://static.igem.wiki/teams/4272/wiki/hpl2.png" 
+  alt="di2" width="550vw" style={{ borderRadius:"5%",marginLeft:"20vw"}}></img>
+</Container>
+<br/>
+<br/>
+<Row>
+  <Col md={{offset:1,span:10  }}>
+<h1 style={{color:"#2e77e5"}}>Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co., Ltd.  (July)</h1>
+</Col>
+</Row>
+<br/>
+<p style={{width:"85vw",marginLeft:"8vw"}}>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+We also had an online meeting with Mr. Xu, an employee of a biopharmaceutical company, who wanted to understand the possibility of the practical use of Acr protein in bioengineering. He thought that the regulation of gene editing in production is very important and that a gene-editing inhibitor like Acr is of great interest if it can be well developed and utilized. He also appreciated our project and gave us some great ideas.
+</p>
+<br/>
+<Container>
+  <img src="https://static.igem.wiki/teams/4272/wiki/hpl3.png" 
+  alt="di2" width="650vw" style={{ borderRadius:"5%",marginLeft:"15vw"}}></img>
+</Container>
+<br/>
+<Row>
+  <Col md={{offset:1}} >
+<h1 style={{color:"#2e77e5"}}>Communication with DUT_China  (August)</h1>
+</Col>
+</Row>
+<br/>
+<p style={{width:"85vw",marginLeft:"8vw"}}>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In our exchange with the DUT_China team, we also discussed the current state of research on the off-target effects of gene editing and whether Acr proteins have advantages in avoiding off-target effects. (See Collaboration) By sharing the information we collected and the content of the project, we concluded that Acr protein has an irreplaceable advantage to deal with off-target effects and it is broad spectrum and easy usability make it a convenient tool.
+</p>
+<br/>
+<p style={{width:"85vw",marginLeft:"8vw",fontWeight:"bold"}}>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+All in all, we continued to improve our project and clarify the meaning of our project during the process of integrated human practice. The future development and application of Acr are more extensive and powerful than we imagined and make us more confident and motivated to keep improving what we are doing, and even hope to continuously devote to the research in this field and refine our software after we finished this project. Some of our perceptions change as we continue to interact with people, and the exclamation, "So that's what it is!" often occurred in our communication process. If we don't communicate with the world, we won't be constantly updating our ideas, keeping up with the current, and bringing our projects closer to humanity itself. These are significances we learned from human practice process.
+</p>
+<br/>
 
     </div>
   )
