@@ -1,6 +1,6 @@
 #software-demo{
     width: 100%;
-	height: 80vh;
+	height: 90vh;
     margin-top: 0vh;
     position : relative;
 }
@@ -15,27 +15,27 @@
 
 #btn-changeLast{
 	position: relative;
-	width: 2.5vmax; 
-    height: 2.5vmax; 
-    border-radius: 2.5vmax;  
+	width: 2.6vmax; 
+    height: 2.6vmax; 
+    border-radius: 2.6vmax;  
 	text-align: center;
 	font-size: 2vmin;
 	color: white;
 	border: 0;
-	margin-left: 35vw;
+	margin-left: 38vw;
 }
 
 
 #btn-changeNext{
 	position: relative;
-	width: 2.5vmax; 
-    height: 2.5vmax; 
-    border-radius: 2.5vmax;  
+	width: 2.6vmax; 
+    height: 2.6vmax; 
+    border-radius: 2.6vmax;  
 	text-align: center;
 	font-size: 2vmin;
 	color: white;
 	border: 0;
-	margin-left: 1.5vw;
+	margin-left: 1vw;
 }
 
 /* 内容盒子 */
@@ -51,10 +51,10 @@
 .software-blue-box{
 	position: absolute;
 	background-color: #0067EC;
-	width: 50vmin;
-	height:50vmin;
+	width: 26vw;
+	height:26vw;
 	margin-top: 2vh;
-	margin-left: 5vw;
+	margin-left: 6vw;
 	border-radius: 2vmin 2vmin 2vmin 2vmin;
 }
 
@@ -68,8 +68,8 @@
 	float: left;
 	margin-top: 5vh;
 	width: 40vw;
-	height:45vh;
-	margin-left:32vw;
+	height:24vw;
+	margin-left:35vw;
 }
 
 .software-white-box-content{
