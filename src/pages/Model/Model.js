@@ -12,7 +12,7 @@ const Model = () => {
 
 
           <h1 className='head1' style={{
-          color:"#2e77e5",
+          color:"#0072F9",
           marginTop:"2vw",
           marginBottom:"2vw",
           }}
@@ -20,7 +20,7 @@ const Model = () => {
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         > <img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
           style={{width:"3vw",marginTop:"-1vw"}}alt="model"/>Data Collecting</h2>
@@ -47,14 +47,14 @@ const Model = () => {
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         > <img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
           style={{width:"3vw",marginTop:"-1vw"}}alt="model"/>Feature Processing</h2>
       </Col>
       <Col md={{span:10,offset:1}}style={{marginBottom:"2vh"}} >
       <p style={{fontSize:"larger"}}>
-      <b><span style={{color:"#2e77e5"}}>1</span> Protein Properties</b>
+      <b><span style={{color:"#0072F9"}}>1</span> Protein Properties</b>
       </p>
       <p>
       With the .gb format file of the genome we downloaded, we extracted the protein sequence of the CDs from it as well as other important information, including gene ID, gene name, product, protein product ID, and gene start and stop positions.
@@ -90,7 +90,7 @@ const Model = () => {
       </Col>
       <Col md={{span:10,offset:1}}style={{marginBottom:"2vh"}} >
       <p style={{fontSize:"larger"}}>
-      <b><span style={{color:"#2e77e5"}}>2</span>Protein Annotation<br/>Database<br/></b>
+      <b><span style={{color:"#0072F9"}}>2</span>Protein Annotation<br/>Database<br/></b>
       </p>
       
       <div style={{display:"flex"}}>
@@ -191,7 +191,7 @@ const Model = () => {
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         > <img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
           style={{width:"3vw",marginTop:"-1vw"}}alt="model"/>Data Processing</h2>
@@ -209,7 +209,7 @@ const Model = () => {
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         > <img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
         style={{width:"3vw",marginTop:"-1vw"}}alt="model"/>Model Establishment</h2>
@@ -253,10 +253,10 @@ After completing the construction of the decision tree, the random forest is con
 <br/><br/>
 
 
-<p><b>Advantages of the random forest algorithm:</b><span style={{color:"#2e77e5"}}> high accuracy, can effectively run on large data sets, introduces randomness, and is not easy to over fit.</span> The random forest has a good ability to resist noise, can process very high dimensional data, and does not need to reduce dimensions. It can not only process discrete data, but also process continuous data, and does not need to standardize the data set, and the training speed is fast. It can obtain the ranking of variable importance It is easy to realize parallelization, get good results even for the default value problem, and the number of super parameters is not very large. In addition, we can intuitively understand their meanings.
+<p><b>Advantages of the random forest algorithm:</b><span style={{color:"#0072F9"}}> high accuracy, can effectively run on large data sets, introduces randomness, and is not easy to over fit.</span> The random forest has a good ability to resist noise, can process very high dimensional data, and does not need to reduce dimensions. It can not only process discrete data, but also process continuous data, and does not need to standardize the data set, and the training speed is fast. It can obtain the ranking of variable importance It is easy to realize parallelization, get good results even for the default value problem, and the number of super parameters is not very large. In addition, we can intuitively understand their meanings.
 </p>
 <p><b>
-Disadvantages of random forest algorithm:</b><span style={{color:"#2e77e5"}}> Although the random forest algorithm is fast enough, when the number of decision trees in the random forest is large, the space and time required for training will be large, which will lead to slower models.</span> Therefore, in practical application, if the real-time requirement is very high, it is better to choose other algorithms.
+Disadvantages of random forest algorithm:</b><span style={{color:"#0072F9"}}> Although the random forest algorithm is fast enough, when the number of decision trees in the random forest is large, the space and time required for training will be large, which will lead to slower models.</span> Therefore, in practical application, if the real-time requirement is very high, it is better to choose other algorithms.
 
 </p>
 
@@ -268,7 +268,7 @@ Disadvantages of random forest algorithm:</b><span style={{color:"#2e77e5"}}> Al
       
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         > <img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
           style={{width:"3vw",marginTop:"-1vw"}}alt="model"/>Model Optimization</h2>

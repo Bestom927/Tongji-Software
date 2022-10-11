@@ -9,7 +9,7 @@ export default function Hpcom(){
 <br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h2 style={{color:"#2e77e5",fontSize:"38px"}}>Difficulties & Solutions & Details</h2>
+<h2 style={{color:"#0072F9",fontSize:"38px"}}>Difficulties & Solutions & Details</h2>
 </Col>
 </Row>
 <br/>
@@ -32,7 +32,6 @@ export default function Hpcom(){
    </p>
   <img src="https://static.igem.wiki/teams/4272/wiki/hpcom1.jpg" 
   alt="hpc1" width="800vw" style={{ borderRadius:"10%"}}/>
-  
 <img src="https://static.igem.wiki/teams/4272/wiki/hpcom2.jpg" 
   alt="hpc2" width="700vw" style={{ borderRadius:"10%",marginLeft:"3vw"}}/>
   </Col>

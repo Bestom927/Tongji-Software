@@ -86,7 +86,7 @@ class Software extends React.Component{
             <Row>
             <Col md={{offset:1,span:8}}>
             <h1 className='head2' style={{
-                  color:"#2e77e5",marginTop:"5vh"
+                  color:"#0072F9",marginTop:"5vh"
               }}
               >Software Demo</h1>
             </Col>
@@ -94,7 +94,7 @@ class Software extends React.Component{
               <Link style={{
                   textAlign:"center",
                   marginRight:"0",
-                  background:"#2e77e5",
+                  background:"#0072F9",
                   height:"4vh",
                   width:"8vw",
                   borderRadius:"5vw",

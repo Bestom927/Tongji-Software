@@ -64,7 +64,7 @@ function HumanPractices ()  {
       <br/><br/>
      <Row>
       <Col md={{offset:1}}>
-      <h1 style={{color:"#2e77e5" ,fontWeight:"bold"}}>Human Practices</h1>
+      <h1 style={{color:"#0072F9" ,fontWeight:"bold"}}>Human Practices</h1>
       </Col>
       </Row>
      
@@ -83,7 +83,7 @@ function HumanPractices ()  {
 <br/><br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h1 style={{color:"#2e77e5"}}> <StarLg/> &nbsp;Inspiration & Problems</h1>
+<h1 style={{color:"#0072F9"}}> <StarLg/> &nbsp;Inspiration & Problems</h1>
 </Col>
 
 </Row>
@@ -99,7 +99,7 @@ function HumanPractices ()  {
 <br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h2 style={{color:"#2e77e5",fontSize:"38px"}}>Photo</h2>
+<h2 style={{color:"#0072F9",fontSize:"38px"}}>Photo</h2>
 </Col>
 
 </Row>
@@ -199,7 +199,7 @@ To gain insight into the specific views on gene editing and Acr proteins, we sel
 <br/><br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h1 style={{color:"#2e77e5"}}> <StarLg/> &nbsp;Design & Improvement</h1>
+<h1 style={{color:"#0072F9"}}> <StarLg/> &nbsp;Design & Improvement</h1>
 </Col>
 
 </Row>
@@ -317,7 +317,7 @@ When our software was initially built, we invited some bioinformatics students t
 <br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h1 style={{color:"#2e77e5"}}> <StarLg/> &nbsp;Design & Improvement （July-September）</h1>
+<h1 style={{color:"#0072F9"}}> <StarLg/> &nbsp;Design & Improvement （July-September）</h1>
 </Col>
 
 </Row>
@@ -329,7 +329,7 @@ We are constantly searching for the practical meaning of our project, hoping to 
 <br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h1 style={{color:"#2e77e5"}}>The Obstetrics & Gynecology Hospital of Fudan University  (September) </h1>
+<h1 style={{color:"#0072F9"}}>The Obstetrics & Gynecology Hospital of Fudan University  (September) </h1>
 </Col>
 
 </Row>
@@ -351,7 +351,7 @@ We are constantly searching for the practical meaning of our project, hoping to 
 <br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h1 style={{color:"#2e77e5"}}>Erlian Primary School  (September)</h1>
+<h1 style={{color:"#0072F9"}}>Erlian Primary School  (September)</h1>
 </Col>
 
 </Row>
@@ -369,7 +369,7 @@ When we preparing for the communication with Erlian Elementary School, we shared
 <br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h1 style={{color:"#2e77e5"}}>Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co., Ltd.  (July)</h1>
+<h1 style={{color:"#0072F9"}}>Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co., Ltd.  (July)</h1>
 </Col>
 </Row>
 <br/>
@@ -385,7 +385,7 @@ We also had an online meeting with Mr. Xu, an employee of a biopharmaceutical co
 <br/>
 <Row>
   <Col md={{offset:1}} >
-<h1 style={{color:"#2e77e5"}}>Communication with DUT_China  (August)</h1>
+<h1 style={{color:"#0072F9"}}>Communication with DUT_China  (August)</h1>
 </Col>
 </Row>
 <br/>

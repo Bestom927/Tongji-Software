@@ -5,7 +5,7 @@
 .cardhp{
   box-shadow: 5px 5px 10px rgb(227, 227, 227) ;
   color:white;
-  background-color: #2e77e5;
+  background-color: #0072F9;
 }
 
 .sx{
@@ -51,38 +51,38 @@
 }
 
 .chosenButton{
-   background-color: #2e77e5; 
+   background-color: #0072F9; 
    color:#fefefe;
    font-weight: bold;
 }
 
 .chosenButton:hover{
-    background-color: #2e77e5; 
+    background-color: #0072F9; 
     color:#fefefe;
     font-weight: bold;
  }
 
  .chosenButton:focus{
-    background-color: #2e77e5; 
+    background-color: #0072F9; 
     color:#fefefe;
     font-weight: bold;
  }
 
 .defaultButton{
     background-color: #fefefe; 
-    color :#2e77e5;
+    color :#0072F9;
     font-weight: bold;
 }
 
 .defaultButton:hover{
     background-color: #fefefe; 
-    color :#2e77e5;
+    color :#0072F9;
     font-weight: bold;
 
 }
 
 .defaultButton:focus{
-    background-color: #2e77e5; 
+    background-color: #0072F9; 
     color:#fefefe;
     font-weight: bold;
 
@@ -292,7 +292,7 @@
     top: 38px;
       bottom: auto;
       border: 12px solid;
-      border-color: #2e77e5 transparent transparent #2e77e5;
+      border-color: #0072F9 transparent transparent #0072F9;
   }
   
   /* Right triangle placed top right flush. */

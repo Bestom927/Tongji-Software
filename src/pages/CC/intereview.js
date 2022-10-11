@@ -9,7 +9,7 @@ export default function Interview1(){
 <br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h2 style={{color:"#2e77e5",fontSize:"38px"}}>Difficulties & Solutions & Details</h2>
+<h2 style={{color:"#0072F9",fontSize:"38px"}}>Difficulties & Solutions & Details</h2>
 </Col>
 </Row>
 <br/>

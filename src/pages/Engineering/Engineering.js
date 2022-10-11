@@ -7,14 +7,14 @@ const Engineering = () => {
     <div>
       <br/>
       <h1 className='head1' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Engineering Success</h1>
       <br/>
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Origins</h2>
       </Col>
@@ -26,7 +26,7 @@ const Engineering = () => {
       
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Design</h2>
       </Col>
@@ -48,7 +48,7 @@ const Engineering = () => {
       
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Build</h2>
       </Col>
@@ -68,7 +68,7 @@ const Engineering = () => {
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Test & Re-design</h2>
       </Col>
@@ -79,14 +79,14 @@ const Engineering = () => {
     
 
       <h4 className='head4' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Problem 1: Too many features and redundant information</h4>
       <p>
       Since we introduced features such as lysogenic virus boundary and self-targeting CRISPR system, after collating data, we found that the matrix of such features was sparse and only a small portion of species existed with similar features, which were not significant for the final decision.</p>
       <Col md={{offset:0}}>
       <h4 className='head4' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         ><img src={require("../../../src/assets/arrow-right.png")} alt="a" style={{height:"50px"}} />
         Redesign 1: Introduction of concept "directon"[1]</h4></Col>
@@ -94,14 +94,14 @@ const Engineering = () => {
          After reviewing relevant information and communicating with other teams, we introduced the "directon" feature to aid in decision-making. This feature is based on Acr protein around Aca protein to assist in prediction, and we used a series of concepts generating from this feature, which is of huge importance in our prediction model. </p>
 
       <h4 className='head4' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Problem 2: Unbalanced data ratio</h4>
         <p>
         The percentage of positive data in our data was very low (lower than or equal 2%). Meanwhile we firstly thought that training the model directly would result in a very low false positive rate, and all the proteins found would have a very high probability of being actual ACR proteins. But the fact is that almost no protein was found.</p>
         <Col md={{offset:0}}>
       <h4 className='head4' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         ><img src={require("../../../src/assets/arrow-right.png")} alt="a" style={{height:"50px"}} />
          Redesign 2: Data Processing</h4></Col>
@@ -109,7 +109,7 @@ const Engineering = () => {
       We referred to the random forest approach to do out-of-bag put-back sampling each round to construct almost balanced training sets to optimize the model and achieved good results.</p>
          <p>In addition, through communication with the SYSU team, we found that they also encountered the same problem, and their data processing method also provided us with some references and inspired us to use the downsampling method to process the data.</p>
         <h4 className='head4' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Problem 3: Model selection</h4>
         <p>
@@ -117,7 +117,7 @@ const Engineering = () => {
         <Col md={{offset:0}}>
         
         <h4 className='head4' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         ><img src={require("../../../src/assets/arrow-right.png")} alt="a" style={{height:"50px"}} />
           Redesign 3: Grid Search</h4></Col>
@@ -127,7 +127,7 @@ const Engineering = () => {
       
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Re-Build</h2>
       </Col>
@@ -137,7 +137,7 @@ const Engineering = () => {
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Improve</h2>
       </Col>
@@ -151,7 +151,7 @@ const Engineering = () => {
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Validation</h2>
       </Col>
@@ -167,7 +167,7 @@ const Engineering = () => {
 
       <Col md={{offset:1}}>
       <h2 className='head2' style={{
-            color:"#2e77e5",
+            color:"#0072F9",
          }}
         >Reference</h2>
       </Col>
