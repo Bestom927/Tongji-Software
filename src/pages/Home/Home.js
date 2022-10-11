@@ -1,12 +1,12 @@
 import React from 'react'
 import { PromotionVideo, GameEducation, Brochure } from '../YX/Yangxin';
-import Semicircle from '../YFY/Semicircle';
+import Semicircle from '../../components/Semicircle/Semicircle';
 import Support from '../../../src/components/Support/Support.js'
 import WhatToDo from '../../components/WhatToDo/WhatToDo';
 import CpisprSystem from '../../components/CpisprSystem/CpisprSystem';
 import ProblemToBeSolved from '../../components/ProblemToBeSolved/ProblemToBeSolved';
 import WhyImportant from '../../components/WhyImportant/WhyImportant';
-import Software from '../../components/Software/Software';
+import Software from '../../components/SoftwareDemo/SoftwareDemo';
 const Home = () => {
     return (
         <>
