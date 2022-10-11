@@ -23,9 +23,121 @@ const Model = () => {
             color:"#2e77e5",
          }}
         > <img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
+          style={{width:"3vw",marginTop:"-1vw"}}alt="model"/>Data Collecting</h2>
+      </Col>
+      <Col md={{span:10,offset:1}}style={{marginBottom:"2vh"}} >
+      <p style={{fontSize:"larger"}}>
+      <b>Data source</b>
+      </p>
+      <p>
+      Anti-CRISPRdb [1]
+      </p>
+      <p>
+      The database was manually collected for Anti-Crispr proteins by screening the data against the literature. Then, the online resource was constructed for the efficient organization of these proteins. It contains available protein sequences, DNA sequences, coding regions, source organisms, taxonomy, virulence, protein interactors and their corresponding 3D structures.The database collects 136 validated Acr , 1253 Acrs from PLitature, and 2304 predicted potential Acr. Acr proteins span 91 families. These families can repress a wide range of CRISPR-Cas systems, including I-A~I-F, II-A, II-C, VIA, VAB, and III.
+      </p>
+      <img src="https://static.igem.wiki/teams/4272/wiki/model-4.png"
+          style={{width:"90%",marginLeft:"5%"}}alt="model"/>
+
+      <p>
+      We focused on the 136 experimentally validated Anti-Crispr proteins in the literature included in this database and collected their protein sequences, coding regions and source organisms, etc. For the subsequent collection of protein features and genomic sequence features.
+       </p>
+      </Col>
+
+
+
+      <Col md={{offset:1}}>
+      <h2 className='head2' style={{
+            color:"#2e77e5",
+         }}
+        > <img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
+          style={{width:"3vw",marginTop:"-1vw"}}alt="model"/>Feature Processing</h2>
+      </Col>
+      <Col md={{span:10,offset:1}}style={{marginBottom:"2vh"}} >
+      <p style={{fontSize:"larger"}}>
+      <b><span style={{color:"#2e77e5"}}>1</span> Protein Properties</b>
+      </p>
+      <p>
+      With the .gb format file of the genome we downloaded, we extracted the protein sequence of the CDs from it as well as other important information, including gene ID, gene name, product, protein product ID, and gene start and stop positions.
+
+      </p>
+      
+      <img src="https://static.igem.wiki/teams/4272/wiki/model-5.png"
+          style={{width:"60%",marginLeft:"20%"}}alt="model"/>
+      <div style={{display:"flex"}}>
+      <p style={{width:"80%"}}>
+      In addition, the protein sequence enables us to calculate the properties of the protein itself as features for subsequent prediction models. We calculate six protein properties: protein length, isoelectric point, hydrophobicity, stability, molecular weight, and proline frequency. Among them, isoelectric point, hydrophobicity, stability, and molecular weight are calculated based on the Bio.SeqUtils package in Biopython.
+      
+      </p>
+        <img src="https://static.igem.wiki/teams/4272/wiki/model-6.png"
+          style={{width:"20%"}}alt="model"/>
+      </div>
+          <br/>
+      <p>
+      The choice of the feature Proline frequency was mainly thought of during our preliminary research on AcRanker [2], an anti-CRISPR software prediction software. This model is a machine learning prediction model based entirely on the amino acid composition and frequency of sequences, and the Proline frequency is precisely the most influential feature in the AcRanker model and is much higher than the second one. Therefore, we tried to add this feature to our model.
+      </p>
+      <div style={{display:"flex"}}>
+      <img src="https://static.igem.wiki/teams/4272/wiki/model-7.png"
+          style={{width:"20%",height:"10%",marginTop:"10%",marginLeft:"10%"}}alt="model"/>
+        <img src="https://static.igem.wiki/teams/4272/wiki/model-8.png"
+          style={{width:"60%"}}alt="model"/>
+      </div>
+
+      </Col>
+
+
+
+      <Col md={{offset:1}}>
+      <h2 className='head2' style={{
+            color:"#2e77e5",
+         }}
+        > <img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
+          style={{width:"3vw",marginTop:"-1vw"}}alt="model"/>Feature Processing</h2>
+      </Col>
+      <Col md={{span:10,offset:1}}style={{marginBottom:"2vh"}} >
+      <p style={{fontSize:"larger"}}>
+      <b><span style={{color:"#2e77e5"}}>2</span>Protein Annotation<br/>Database<br/></b>
+      </p>
+      
+      <div style={{display:"flex"}}>
+      <p style={{width:"60%"}}>
+      CONVERSED DOMAIN DATABASE(CDD) [3]
+      <br/>
+      <br/>
+      CDD is a protein annotation resource consisting of a series of fully annotated multiple sequence alignment models for ancient structural domains and full-length proteins.
+      We selected the cddmasters.fa.gz dataset. This dataset contains sequences in FASTA format, showing representative sequences for each conserved structural domain in the set.
+
+      </p>
+        <img src="https://static.igem.wiki/teams/4272/wiki/model-9.png"
+          style={{width:"40%",marginTop:"-10vh"}}alt="model"/>
+      </div>
+      <br/>
+      <p>
+      PROKARYOTIC VIRUS ORTHOLOGOUS GROUPS(pVOG) [4]
+      <br/>
+      <br/>
+      The database contains 9,518 orthologous groups shared among nearly 3,000 thousand complete genomes of viruses that infect bacteria and archaea.
+      We downloaded the 192,119 viral protein sequences and their annotations included in this database. We created the dataset in FASTA format after de-duplication.</p>
+
+        <img src="https://static.igem.wiki/teams/4272/wiki/model-10.png"
+          style={{width:"100%"}}alt="model"/>
+
+      </Col>
+
+
+
+
+
+
+
+
+      <Col md={{offset:1}}>
+      <h2 className='head2' style={{
+            color:"#2e77e5",
+         }}
+        > <img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
           style={{width:"3vw",marginTop:"-1vw"}}alt="model"/>Data Processing</h2>
       </Col>
-      <Col md={{span:9,offset:1}}style={{marginBottom:"2vh"}} >
+      <Col md={{span:10,offset:1}}style={{marginBottom:"2vh"}} >
       <p>There are mainly two types of original data. </p>
 
       <p>Here, 0 represents non ACR protein, with a total of 13725 pieces of data, and 1 represents ACR protein, with 73 pieces of data, which are two types of imbalance problems. The default threshold of most models is the median of the output value. For example, the output range of logical regression is [0,1]. When the output of a sample is greater than 0.5, it will be divided into positive examples, and vice versa. When the categories of data are unbalanced, the default classification threshold adopted may cause the output to be all counter examples, resulting in false high accuracy and classification failure. Therefore, it is necessary to adjust the imbalance of data through sampling.
