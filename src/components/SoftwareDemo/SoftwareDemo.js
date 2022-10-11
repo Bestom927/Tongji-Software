@@ -11,7 +11,7 @@ const SoftwareFun1=()=>{
       <>
        <div style={{fontWeight: "700",fontSize:"2.5vmin"}}>Easy  Use</div>
        <div style={{fontWeight: "500",fontSize:"2vmin",width:"25vw",marginTop:"2vh"}}>No need to install the configuration environment &#38; No complex operations</div>
-      <div style={{width:"30vw",marginTop:"2vh",fontSize:"1.2vmin"}}>
+      <div style={{width:"36vw",marginTop:"2vh",fontSize:"1.2vmin"}}>
       Coot operation throughout. Our software can be directly executed by command lines, users do not need to go through 
       a lengthy software installation process and complex environment configuration efforts, we pack the required environments
        and packages all together as a docker mirror image, users can achieve the immediate, ready to use goal and start running 
@@ -28,7 +28,7 @@ const SoftwareFun2=()=>{
       <>
             <div style={{fontWeight: "700",fontSize:"2.5vmin"}}>Flexible and efficient</div>
             <div style={{fontWeight: "500",fontSize:"2vmin",width:"25vw",marginTop:"2vh"}}>Run faster and better with more options</div>
-            <div style={{width:"30vw",marginTop:"2vh",fontSize:"1.2vmin"}}>
+            <div style={{width:"36vw",marginTop:"2vh",fontSize:"1.2vmin"}}>
             Two methods are provided to download the original Genebank files: batch download through NCBI numbered list files;
              The complete genome sequence provided by users is constructed based on prokka to extract relevant protein information, giving users more choice space.
              <br/> <br/>
@@ -100,7 +100,7 @@ class Software extends React.Component{
                   borderRadius:"5vw",
                   color:"white",
                   paddingTop:"0.5vh",
-                  fontSize:"2vh",
+                  fontSize:"1vw",
                   textDecoration:"none",
                   marginTop:"6vh"
               }}to="/tongji-software/software">More Info
