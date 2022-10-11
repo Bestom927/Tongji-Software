@@ -7,10 +7,11 @@ import './Yangxin.css';
 const PromotionVideo = () => {
     return (
         <>
-            <div className='title'><img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
-                style={{ width: "3vw", marginTop: "-1vw" }} alt="model" /> Promotion Video</div><br />
-            <div className='description'>Explain our project to the community and other audiences in an easy to understand way.</div>
-            <br />
+            <div className='PVTop'>
+                <div className='title'><img src="https://static.igem.wiki/teams/4272/wiki/star-icon.png"
+                    style={{ width: "3vw", marginTop: "-1vw" }} alt="model" /> Promotion Video</div><br />
+                <div className='description'>Explain our project to the community and other audiences in an easy to understand way.</div>
+            </div><br />
 
             <div className='videoInfo'>
                 <div className='video'>
@@ -131,8 +132,8 @@ const Brochure = () => {
 
                             <div className={isHovering0 ? 'BrochureImg1' : 'BrochureImg'}>
                                 <img
-                                    src={require('../../assets/Brochure01.png')}
-                                    alt='Brochure01.png'
+                                    src='https://static.igem.wiki/teams/4272/wiki/brochure01.png'
+                                    alt='brochure01.png'
                                 />
                             </div>
                         </div>
@@ -143,8 +144,8 @@ const Brochure = () => {
                         >
                             <div className={isHovering1 ? 'BrochureImg1' : 'BrochureImg'}>
                                 <img
-                                    src={require('../../assets/Brochure02.png')}
-                                    alt='Brochure02.png'
+                                    src='https://static.igem.wiki/teams/4272/wiki/brochure02.png'
+                                    alt='brochure02.png'
                                 />
                             </div>
                         </div>
@@ -155,8 +156,8 @@ const Brochure = () => {
                         >
                             <div className={isHovering2 ? 'BrochureImg1' : 'BrochureImg'}>
                                 <img
-                                    src={require('../../assets/Brochure03.png')}
-                                    alt='Brochure03.png'
+                                    src='https://static.igem.wiki/teams/4272/wiki/brochure03.png'
+                                    alt='brochure03.png'
                                 />
                             </div>
                         </div>
@@ -167,8 +168,8 @@ const Brochure = () => {
                         >
                             <div className={isHovering3 ? 'BrochureImg1' : 'BrochureImg'}>
                                 <img
-                                    src={require('../../assets/Brochure04.png')}
-                                    alt='Brochure04.png'
+                                    src='https://static.igem.wiki/teams/4272/wiki/brochure04.png'
+                                    alt='brochure04.png'
                                 />
                             </div>
                         </div>
