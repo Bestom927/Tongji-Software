@@ -14,6 +14,9 @@ import Questionaire1 from '../CC/qustionaire';
 import Interview1 from '../CC/intereview';
 import Hpcom from '../CC/hpcom';
 import HpcomTest from '../CC/hpcomtest';
+// import Hpcom3 from '../CC/hpcom3';
+import Hpcom4 from '../CC/hpcom4';
+import Hpcom2 from '../CC/hpcom2';
 
 function HumanPractices ()  {
    const [value,setValue]=useState(1);
@@ -312,8 +315,10 @@ When our software was initially built, we invited some bioinformatics students t
 </CardGroup>
 </Container>
 
-{value!==2&&<Hpcom/>}
-{value===2&&<HpcomTest/>}
+{value2===1&&<Hpcom/>}
+{value2===2&&<Hpcom2/>}
+{value2===3&&<HpcomTest/>}
+{value2===4&&<Hpcom4/>}
 <br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
