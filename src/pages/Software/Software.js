@@ -67,7 +67,8 @@ const Software = () => {
         <img src="https://static.igem.wiki/teams/4272/wiki/sofware-2.png" 
         style={{border:"3px solid blue", width:"100%"}} alt="software"/> 
         <h4>After running, you can directly get your results.</h4>
-        <iframe title="Tongji_Software: software website (2022) [English]" width="100%" height="100%" src="https://video.igem.org/videos/embed/e8b6e401-3e2d-46f5-ba53-38357560435b" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+        <iframe title="Tongji_Software: software website (2022) [English]" style={{width:"100%",height:"80vh" }}
+        src="https://video.igem.org/videos/embed/e8b6e401-3e2d-46f5-ba53-38357560435b" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
         </Col>
     </div>
   )
