@@ -75,7 +75,7 @@ Meanwhile, we suggested to DUT_China team member that human gene SNPs could be t
       <br/>
       <p style={{width:"85vw",marginLeft:"8vw"}}>
       After the CCiC conference, we got in touch with SYSU_Software's students. Through the communication, we learned that SYSU_Software's project was about mining Crispr-Cas-like defense systems, which was partly related to our team's topic.SYSU_Software's suggestions helped us to optimize our model. In addition, later in the project, we provided SYSU_Software with the results of data testing and validation, which also contributed to our project validation.
-In fact, the collaboration between the two teams went far beyond the scope of "Collaboration". For more information, please see <a href="https://2022.igem.wiki/tongji-software/partnership"> Partnership</a>.
+In fact, the collaboration between the two teams went far beyond the scope of "Collaboration". For more information, please see <a href="https://2022.igem.wiki/tongji-software/partnership" style={{color:"grey"}}>Partnership.</a>.
 </p>
 <br/>
 <br/>
@@ -120,7 +120,7 @@ During the discussion, we suggested that USTC_Software's project could take inte
       </Row>
       <br/>
 
-<img src="https://static.igem.wiki/teams/4272/wiki/coll7.png" alt="coll5" 
+<img src="https://static.igem.wiki/teams/4272/wiki/coll8.png" alt="coll5" 
       width={"1130vw"} style={{marginLeft:"10vw"}}/>
 <br/><br/><br/><br/>
       <p style={{width:"85vw",marginLeft:"8vw"}}>

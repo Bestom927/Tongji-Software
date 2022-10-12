@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import ReactPlayer from 'react-player';
-import { Link } from "react-router-dom";
 import './Yangxin.css';
 import { Col,Row } from 'react-bootstrap';
 
@@ -54,7 +53,7 @@ const GameEducation = () => {
         >Game & Education</h1>
       </Col>
          
-      <Link style={{
+      <a style={{
                   textAlign:"center",
                   marginRight:"0",
                   background:"#2e77e5",
@@ -66,8 +65,8 @@ const GameEducation = () => {
                   fontSize:"2vh",
                   textDecoration:"none",
                   marginTop:"6vh"
-              }}to="/tongji-software/communication">More Info
-            </Link>
+              }}href="https://2022.igem.wiki/tongji-software/communication">More Info
+            </a>
       </Row>
       <Col md={{span:7,offset:1}}>
        <p style={{fontSize:"x-large"}}>An education game designed for 6-18 students to help them knowing the basic knowledge of synthetic biology and the relationship between the several roles.

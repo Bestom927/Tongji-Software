@@ -11,7 +11,7 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
-import { Link } from "react-router-dom";
+
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -347,7 +347,7 @@ export default function CustomizedTimeline() {
             Communication with SYSU-Software
             </Typography>
             <Typography>After the CCiC conference, we got in touch with SYSU_Software's students. Through the communication, we learned that SYSU_Software's project was about mining Crispr-Cas-like defense systems, which was partly related to our team's topic.SYSU_Software's suggestions helped us to optimize our model. In addition, later in the project, we provided SYSU_Software with data results to test and validate their project as well as our project.
-                In fact, the collaboration between the two teams went far beyond the scope of "Collaboration". For more information, please see <Link to="/tongji-software/partnership">Partnership.</Link></Typography>
+                In fact, the collaboration between the two teams went far beyond the scope of "Collaboration". For more information, please see <a href="https://2022.igem.wiki/tongji-software/partnership">Partnership.</a></Typography>
             </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -443,7 +443,7 @@ export default function CustomizedTimeline() {
             <Typography variant="h6" component="h1">
              Erlian Primary School
             </Typography>
-            <Typography>When we preparing for the communication with Erlian Elementary School, we shared with Mr. Xia, the teacher of the elementary school's science and technology class, and introduced synthetic biology and the iGEM competition to him. We also asked him if a project like ours could do anything for younger children like elementary school students. He said, "Actually, elementary school students are more knowledgeable than we think, probably because of the advanced internet. There is a lot of knowledge that we think children won't know, but that just comes from our subjective assumption." This also inspired us to go into elementary schools to conduct a gene editing science curriculum (see <Link to="/tongji-software/communication">Communication</Link>) to bring more attention to gene editing in our lives. The successful completion of our course was supported and endorsed by him, and he alse helped us with many formalities.</Typography>
+            <Typography>When we preparing for the communication with Erlian Elementary School, we shared with Mr. Xia, the teacher of the elementary school's science and technology class, and introduced synthetic biology and the iGEM competition to him. We also asked him if a project like ours could do anything for younger children like elementary school students. He said, "Actually, elementary school students are more knowledgeable than we think, probably because of the advanced internet. There is a lot of knowledge that we think children won't know, but that just comes from our subjective assumption." This also inspired us to go into elementary schools to conduct a gene editing science curriculum (see <a href="https://2022.igem.wiki/tongji-software/communication">Communication</a>) to bring more attention to gene editing in our lives. The successful completion of our course was supported and endorsed by him, and he alse helped us with many formalities.</Typography>
             </Paper>
         </TimelineContent>
       </TimelineItem>

@@ -3,7 +3,6 @@ import FadeInAnimation from "./FadeInAnimation";
 import './SoftwareDemo.css'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import { Link } from "react-router-dom";
 import Button from '@mui/material/Button';
 
 const SoftwareFun1=()=>{
@@ -91,7 +90,7 @@ class Software extends React.Component{
               >Software Demo</h1>
             </Col>
               
-              <Link style={{
+              <a style={{
                   textAlign:"center",
                   marginRight:"0",
                   background:"#0072F9",
@@ -103,8 +102,8 @@ class Software extends React.Component{
                   fontSize:"1vw",
                   textDecoration:"none",
                   marginTop:"6vh"
-              }}to="/tongji-software/software">More Info
-            </Link>
+              }}href="https://2022.igem.wiki/tongji-software/software">More Info
+            </a>
             </Row>
             <Col md={{span:6,offset:1}}>
             <p style={{fontSize:"x-large"}}>Anti-CRISPR Genome-based Predicting Software

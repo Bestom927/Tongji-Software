@@ -33,7 +33,7 @@ const NavBar = () => {
                             <NavDropdown.Item href="/tongji-software/proof-of-concept">Proof of Concept</NavDropdown.Item>
                         </NavDropdown>
 
-                        <NavDropdown title="Communication&Education" id="basic-nav-dropdown">
+                        <NavDropdown title="Communication" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/tongji-software/communication">Communication&Education</NavDropdown.Item>
                         </NavDropdown>
 

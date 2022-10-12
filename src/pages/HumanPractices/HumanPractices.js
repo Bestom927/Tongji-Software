@@ -18,6 +18,7 @@ import HpcomTest from '../CC/hpcomtest';
 import Hpcom4 from '../CC/hpcom4';
 import Hpcom2 from '../CC/hpcom2';
 
+
 function HumanPractices ()  {
    const [value,setValue]=useState(1);
    const [value2,setValue2]=useState(1);
@@ -114,7 +115,7 @@ function HumanPractices ()  {
 <br/><br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h2 style={{color:"#2e77e5",fontSize:"38px"}}>Timeline(Drag me!)</h2>
+<h2 style={{color:"#2e77e5",fontSize:"38px"}}>Timeline(Drag me and roll down!)</h2>
 </Col>
 </Row>
 
@@ -224,7 +225,7 @@ To gain insight into the specific views on gene editing and Acr proteins, we sel
 <br/><br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h2 style={{color:"#2e77e5",fontSize:"38px"}}>Timeline(Drag me!)</h2>
+<h2 style={{color:"#2e77e5",fontSize:"38px"}}>Timeline(Drag me and roll down!)</h2>
 </Col>
 </Row>
 <br/>
@@ -363,7 +364,7 @@ We are constantly searching for the practical meaning of our project, hoping to 
 <br/>
 <p style={{width:"85vw",marginLeft:"8vw"}}>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-When we preparing for the communication with Erlian Elementary School, we shared with Mr. Xia, the teacher of the elementary school's science and technology class, and introduced synthetic biology and the iGEM competition to him. We also asked him if a project like ours could do anything for younger children like elementary school students. He said, "Actually, elementary school students are more knowledgeable than we think, probably because of the advanced internet. There is a lot of knowledge that we think children won't know, but that just comes from our subjective assumption." This also inspired us to go into elementary schools to conduct a gene editing science curriculum (see <a href="https://2022.igem.wiki/tongji-software/communcation">Communication</a>) to bring more attention to gene editing in our lives. The successful completion of our course was supported and endorsed by him, and he alse helped us with many formalities.
+When we preparing for the communication with Erlian Elementary School, we shared with Mr. Xia, the teacher of the elementary school's science and technology class, and introduced synthetic biology and the iGEM competition to him. We also asked him if a project like ours could do anything for younger children like elementary school students. He said, "Actually, elementary school students are more knowledgeable than we think, probably because of the advanced internet. There is a lot of knowledge that we think children won't know, but that just comes from our subjective assumption." This also inspired us to go into elementary schools to conduct a gene editing science curriculum (see <a href="https://2022.igem.wiki/tongji-software/communication" >Communication.</a>) to bring more attention to gene editing in our lives. The successful completion of our course was supported and endorsed by him, and he alse helped us with many formalities.
 </p>
 <br/>
 <Container>
@@ -396,7 +397,7 @@ We also had an online meeting with Mr. Xu, an employee of a biopharmaceutical co
 <br/>
 <p style={{width:"85vw",marginLeft:"8vw"}}>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In our exchange with the DUT_China team, we also discussed the current state of research on the off-target effects of gene editing and whether Acr proteins have advantages in avoiding off-target effects. (See <a href="https://2022.igem.wiki/tongji-software/collaboration">Collaboration</a>) By sharing the information we collected and the content of the project, we concluded that Acr protein has an irreplaceable advantage to deal with off-target effects and it is broad spectrum and easy usability make it a convenient tool.
+In our exchange with the DUT_China team, we also discussed the current state of research on the off-target effects of gene editing and whether Acr proteins have advantages in avoiding off-target effects. (See <a href="https://2022.igem.wiki/tongji-software/collaborations" >Collaborations</a>) By sharing the information we collected and the content of the project, we concluded that Acr protein has an irreplaceable advantage to deal with off-target effects and it is broad spectrum and easy usability make it a convenient tool.
 </p>
 <br/>
 <p style={{width:"85vw",marginLeft:"8vw",fontWeight:"bold"}}>

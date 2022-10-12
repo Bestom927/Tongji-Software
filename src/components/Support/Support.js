@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Col from 'react-bootstrap/Col';
-import { Link } from "react-router-dom";
+
 const Support = () => {
 
     return (
@@ -13,14 +13,18 @@ const Support = () => {
         >Support</h2>
       </Col>
       <Col md={{span:8,offset:1}}>
-       <p>Support thing.Support thing.Support thing.Support thing.Support thing.Support thing.Support thing.
-       Support thing.Support thing.Support thing.Support thing.Support thing.Support thing.Support thing.Support thing.
-       Support thing.Support thing.Support thing.Support thing.Support thing.Support thing.
-       </p>
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-sysu.png"style={{width:"9vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-fd.png"style={{width:"9vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-fdzj.png"style={{width:"9vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-shjt.png"style={{width:"9vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-dut.jpeg"style={{width:"9vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-zgkxjs.png"style={{width:"9vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-erlian.jpg"style={{width:"9vw"}} alt="support" />
+      
       </Col>
       <br/>
       <Col md={{span:8,offset:1}}>
-        <Link style={{
+        <a style={{
             background:"#0072F9",
             height:"30px",
             width:"50px",
@@ -28,8 +32,8 @@ const Support = () => {
             color:"white",
             padding:"10px",
             textDecoration:"none",
-        }}to="/tongji-software/partnership">More Info
-       </Link>
+        }}href="https://2022.igem.wiki/tongji-software/partnership">More Info
+       </a>
       </Col>
       <br/><br/><br/>
         </div>
