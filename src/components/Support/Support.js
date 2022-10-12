@@ -13,13 +13,15 @@ const Support = () => {
         >Support</h2>
       </Col>
       <Col md={{span:8,offset:1}}>
-      <img src="https://static.igem.wiki/teams/4272/wiki/sup-sysu.png"style={{width:"9vw"}} alt="support" />
-      <img src="https://static.igem.wiki/teams/4272/wiki/sup-fd.png"style={{width:"9vw"}} alt="support" />
-      <img src="https://static.igem.wiki/teams/4272/wiki/sup-fdzj.png"style={{width:"9vw"}} alt="support" />
-      <img src="https://static.igem.wiki/teams/4272/wiki/sup-shjt.png"style={{width:"9vw"}} alt="support" />
-      <img src="https://static.igem.wiki/teams/4272/wiki/sup-dut.jpeg"style={{width:"9vw"}} alt="support" />
-      <img src="https://static.igem.wiki/teams/4272/wiki/sup-zgkxjs.png"style={{width:"9vw"}} alt="support" />
-      <img src="https://static.igem.wiki/teams/4272/wiki/sup-erlian.jpg"style={{width:"9vw"}} alt="support" />
+        
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-tj.jpg"style={{width:"8vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-sysu.png"style={{width:"8vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-fd.png"style={{width:"8vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-fdzj.png"style={{width:"8vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-shjt.png"style={{width:"8vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-dut.jpeg"style={{width:"8vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-zgkxjs.png"style={{width:"8vw"}} alt="support" />
+      <img src="https://static.igem.wiki/teams/4272/wiki/sup-erlian.jpg"style={{width:"8vw"}} alt="support" />
       
       </Col>
       <br/>

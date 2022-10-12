@@ -27,7 +27,9 @@ const Footer = () => {
                     <img src="https://static.igem.wiki/teams/4272/wiki/gitlab-logo.png" alt="logo"
                     style={{height:"100px"}}
                     ></img></a>
-                
+                    <a href="https://gitlab.igem.org/2022/tongji-software">
+                     
+                    </a>
                 </div>
             </div>
         </div>
