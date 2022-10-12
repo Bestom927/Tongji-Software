@@ -18,7 +18,7 @@ const Contribution = () => {
 
       <br/>
 <p style={{width:"75vw",marginLeft:"8vw"}}>
-We believe our project has been largely beneficial for synthetic biology, helping existing teams effectively in making presurgical judgements about substrate organisms and whether the phages used are at risk of causing experimental failures, and also providing them with a rapid and accurate tool for ACR protein recognition that subsequent iGEM teams can make more valuable attempts based on our work. Extensive attempts were made to learn more about our project and about synthetic biology itself.
+We believe our project has been largely beneficial for synthetic biology, helping existing teams effectively in making presurgical judgments about substrate organisms and also providing them with a rapid and accurate tool for ACR protein recognition that subsequent iGEM teams can make more valuable attempts based on our work. Extensive attempts were made to learn more about our project and about synthetic biology itself.
 </p>
 <br/>
 <Row>
@@ -40,7 +40,7 @@ Through the efforts of our team, more mature references to tools and protocols w
 <h5 style={{width:"75vw",marginLeft:"8vw",fontWeight:"bold"}}>For the public and to the iGEM community</h5>
 
 <p style={{width:"75vw",marginLeft:"8vw"}}>
-During the public facing campaign, we produced a suite of tafazzins based on phage entry into bacteria that escape recognition by the CRISPR system via ACR proteins to deepen their understanding of the mechanism of action of ACR proteins as well as their physiological significance. (<a href="https://2022.igem.wiki/tongji-software/communication">details</a>), and some educational brochures were written to travel local schools to disseminate relevant popular science knowledge to children. (<a href="https://2022.igem.wiki/tongji-software/human-practices">details</a>) in order to disseminate this new technology to more people, some introductory videos of our project have been uploaded by bilibilibili, one of the largest social video platforms in China
+During the public facing campaign, we produced a game to deepen their understanding of the mechanism of action of ACR proteins as well as their physiological significance.(<a href="https://2022.igem.wiki/tongji-software/communication">details</a>), and some educational brochures were written to travel local schools to disseminate relevant popular science knowledge to children. (<a href="https://2022.igem.wiki/tongji-software/human-practices">details</a>) in order to disseminate this new technology to more people, some introductory videos of our project have been uploaded by bilibilibili, one of the largest social video platforms in China
 </p>
 <p style={{width:"75vw",marginLeft:"8vw"}}>
 To further enhance efforts for the iGEM community, we participated in the advocacy exchange, CCIC, held by numerous iGEMers within China. Besides, we have participated in writing a guidebook on how to prepare for the iGEM competition during the epidemic. In the manual, we wrote down what difficulties we encountered during the competition, such as difficulties in conducting offline experiments and collaboration, how our team overcame these difficulties and solved these problems, and what we thought and experienced during the preparation process.</p>
