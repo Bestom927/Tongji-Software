@@ -41,6 +41,14 @@ const Model = () => {
       <p>
       We focused on the 136 experimentally validated Anti-Crispr proteins in the literature included in this database and collected their protein sequences, coding regions and source organisms, etc. For the subsequent collection of protein features and genomic sequence features.
        </p>
+       
+       <p>For unknown genomic FASTA format files without gene annotation, we performed gene annotation by Prokka[5] software to generate GB format files for subsequent extraction of protein features and genomic sequence features.
+        <br/><br/>
+        <b>Prokka</b><br/>
+        Whole genome annotation is the process of identifying features of interest in a set of genomic DNA sequences, and labelling them with useful information. Prokka is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files.
+        </p>
+
+
       </Col>
 
 
@@ -136,13 +144,6 @@ const Model = () => {
       Guilt association is one of the common methods for Acr mining. Acr proteins are characterized by small size and are not conserved. Downstream of Acr usually encodes a homolog of an HTH-containing protein called Anti-CRISPR-associated protein (Aca), which is significantly more conserved in the virus than Acrs itself, and this greatly facilitates the detection of Acr proteins. We therefore added the feature of whether the candidate protein downstream encodes an HTH homologue to our model.
       We defined the following criteria to determine the feature: Whether there is an HTH-domain-containing protein encoded downstream of and adjacent to (within three genes) the Acr candidate within the same directon. We subjected the candidate proteins to a PSI-BLAST search against the PVOG and CDD datasets with an e-value cutoff of 5e-3. This feature was analyzed by the presence of HTH or helix-turn-helix terms in the annotation of the hit protein entries.
       </p>
-
-         <p>For unknown genomic FASTA format files without gene annotation, we performed gene annotation by Prokka[5] software to generate GB format files for subsequent extraction of protein features and genomic sequence features.
-        <br/><br/>
-        <b>Prokka</b><br/>
-        Whole genome annotation is the process of identifying features of interest in a set of genomic DNA sequences, and labelling them with useful information. Prokka is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files.
-        </p>
-
 
       </Col>
 

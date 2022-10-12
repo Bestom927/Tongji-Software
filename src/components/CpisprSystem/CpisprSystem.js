@@ -29,7 +29,7 @@ const CpisprSystem = () => {
                             style={{height:"8vw"}} alt="WBP1" />
                             <div style={{fontWeight: "600",fontSize:"2vmin"}}>Programmability</div>
                         <div className="white-box-content" >
-                            <div className="box-content-detail">
+                            <div className="box-content-detail-sys">
                                 <div style={{width:"15vw"}}>
                                 Cas has switchable nuclease activity and can also easily redirect the enzyme by changing the sgRNA targeting region or spacer sequence.
                                 </div>
@@ -44,7 +44,7 @@ const CpisprSystem = () => {
                             style={{height:"8vw"}} alt="WBP1" />
                             <div style={{fontWeight: "600",fontSize:"2vmin"}}>Diversity</div>
                         <div className="white-box-content" >
-                            <div className="box-content-detail">
+                            <div className="box-content-detail-sys">
                                 <div style={{width:"15vw"}}>
                                 Bacteria and archaea have evolved many functionally distinct CRISPR-Cas systems that have become a variety of gene editing tools in synthetic biology.
                                 </div>
@@ -59,10 +59,8 @@ const CpisprSystem = () => {
                             style={{height:"30vw"}} alt="WBP1" />
                         </div>
                         <Col md={{span:4,offset:8}}>
-                             <p>
-                            Reference:
-                            [1] Knott GJ, Doudna JA. CRISPR-Cas guides the future of genetic engineering. Science. 2018 Aug 31;361(6405):866-869.
-                            </p>
+                             <p style={{fontSize:"small"}}>
+                           </p>
                         </Col>
                     </div>
                 </Col>
@@ -76,7 +74,7 @@ const CpisprSystem = () => {
                             style={{height:"8vw"}} alt="WBP1" />
                             <div style={{fontWeight: "600",fontSize:"2vmin"}}>Precision</div>
                         <div className="white-box-content" >
-                            <div className="box-content-detail">
+                            <div className="box-content-detail-sys">
                                 <div style={{width:"15vw"}}>
                                 Cas9 and Cas12a are RNA-guided nucleases that can induce genome editing by triggering dsDNA break repair at a specific site.
                                 </div>
@@ -91,7 +89,7 @@ const CpisprSystem = () => {
                             style={{height:"8vw"}} alt="WBP1" />
                             <div style={{fontWeight: "600",fontSize:"2vmin"}}> Efficacy</div>
                         <div className="white-box-content" >
-                            <div className="box-content-detail">
+                            <div className="box-content-detail-sys">
                                 <div style={{width:"15vw"}}>
                                 Cas assembles the expected guide RNA only through specific recognition of crRNA and its interaction with tracrRNA.
                                 </div>
@@ -106,7 +104,7 @@ const CpisprSystem = () => {
                             style={{height:"8vw"}} alt="WBP1" />
                             <div style={{fontWeight: "600",fontSize:"2vmin"}}>Wideness</div>
                         <div className="white-box-content"  >
-                            <div className="box-content-detail">
+                            <div className="box-content-detail-sys">
                                 <div style={{width:"15vw"}}>
                                 Cas9 and Cas12a work in a wide range of cell types and organisms.
                                 </div>

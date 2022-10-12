@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { FaGitlab } from "react-icons/fa";
 const Footer = () => {
 
     return (
@@ -9,27 +10,19 @@ const Footer = () => {
             </div>
             
             <div id="contact_info">
-                <div style={{bottom:"30px"}}>
+                <div style={{paddingTop:"20px"}}>
 
-                    <a href="https://gitlab.igem.org/2022/tongji-software">
-                    <img src="https://static.igem.wiki/teams/4272/wiki/igem.png" alt="logo"></img>
-                    </a>
+
                     
-                    <a href="https://gitlab.igem.org/2022/tongji-software">
-                    <img src="https://static.igem.wiki/teams/4272/wiki/bilibili.png" alt="logo"></img>
+                  <a href="https://gitlab.igem.org/2022/tongji-software">
+                    <img src="https://static.igem.wiki/teams/4272/wiki/igem.png"
+                    style={{width:"80px"}} alt="logo"></img>
                     </a>
-
-                    <a href="https://gitlab.igem.org/2022/tongji-software">
-                    <img src="https://static.igem.wiki/teams/4272/wiki/github.png" alt="logo"></img>
+                    <a href="https://gitlab.igem.org/2022/tongji-software" style={{color:"white",}}>
+                      <FaGitlab style={{width:"20px"}}/>https://gitlab.igem.org/2022/tongji-software
                     </a>
-
-                    <a href="https://gitlab.igem.org/2022/tongji-software">
-                    <img src="https://static.igem.wiki/teams/4272/wiki/gitlab-logo.png" alt="logo"
-                    style={{height:"100px"}}
-                    ></img></a>
-                    <a href="https://gitlab.igem.org/2022/tongji-software">
-                     
-                    </a>
+                    <br/>
+                    <a style={{color:"white"}}>tongjisoftware2022@163.com</a>
                 </div>
             </div>
         </div>

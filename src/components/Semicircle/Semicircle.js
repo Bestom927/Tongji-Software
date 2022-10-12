@@ -149,6 +149,8 @@ const Semicircle = () =>{
                     <div className="white-box-content" >
                             <div style={{fontSize:"1vmin"}}>
                             <div style={{fontWeight:"600"}}>Reference:</div>
+                            <div> [1] Knott GJ, Doudna JA. CRISPR-Cas guides the future of genetic engineering. Science. 2018 Aug 31;361(6405):866-869.
+                            </div>
                             <div>[2] Jain, Surbhi et al. “Precise Regulation of Cas9-Mediated Genome Engineering by Anti-CRISPR-Based Inducible CRISPR Controllers.” ACS synthetic biology vol. 10,6 (2021): 1320-1327.</div>
                             <div> [3] Zhang, Yadan, and Mario Andrea Marchisio. “Type II anti-CRISPR proteins as a new tool for synthetic biology.” RNA biology vol. 18,8 (2021): 1085-1098.</div>
                            

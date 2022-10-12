@@ -34,7 +34,7 @@ const Support = () => {
             color:"white",
             padding:"10px",
             textDecoration:"none",
-        }}href="https://2022.igem.wiki/tongji-software/partnership">More Info
+        }}href="https://2022.igem.wiki/tongji-software/human-practices">More Info
        </a>
       </Col>
       <br/><br/><br/>

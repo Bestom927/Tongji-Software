@@ -1,15 +1,32 @@
 import React from 'react'
 import './Partnership.css'
+import { Col } from 'react-bootstrap'
 
 const Partnership = () => {
   return (
     <>
-      <div className='teamTop'>
-        <div className='teamImg'>
-          <div className='imgWord1'>Partnership</div>
-          <div className='imgWord2'>Anti-CRISPR Genome-based Predicting Software</div>
-        </div>
-      </div>
+<div style={{textAlign:"center"}}>
+<h1 style={{color:"white" ,
+                fontSize:"80px",
+                fontWeight:"bold",
+                marginTop:"90vh",
+                marginLeft:"10vw",
+                position:"absolute",
+                }}> Partnership</h1>
+              <h1 style={{color:"white" ,
+                fontSize:"50px",
+                fontWeight:"bold",
+                marginTop:"90vh",
+                marginLeft:"45vw",
+                position:"absolute",
+                textAlign:"left",
+                }}> Anti-CRISPR Genome-based<br/> Predicting Software</h1>
+                
+<br/>
+     <img src="https://static.igem.wiki/teams/4272/wiki/team01.png" 
+            style={{height:"100vh"}} alt="attr-page-img1" />
+      <br/>
+</div>
 
       <div className='title'>Partnership</div>
       <div className='content'>

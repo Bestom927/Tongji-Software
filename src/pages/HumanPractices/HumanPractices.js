@@ -364,7 +364,7 @@ We are constantly searching for the practical meaning of our project, hoping to 
 <br/>
 <p style={{width:"85vw",marginLeft:"8vw"}}>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-When we preparing for the communication with Erlian Elementary School, we shared with Mr. Xia, the teacher of the elementary school's science and technology class, and introduced synthetic biology and the iGEM competition to him. We also asked him if a project like ours could do anything for younger children like elementary school students. He said, "Actually, elementary school students are more knowledgeable than we think, probably because of the advanced internet. There is a lot of knowledge that we think children won't know, but that just comes from our subjective assumption." This also inspired us to go into elementary schools to conduct a gene editing science curriculum (see <a href="https://2022.igem.wiki/tongji-software/communication" >Communication.</a>) to bring more attention to gene editing in our lives. The successful completion of our course was supported and endorsed by him, and he alse helped us with many formalities.
+When we preparing for the communication with Erlian Elementary School, we shared with Mr. Xia, the teacher of the elementary school's science and technology class, and introduced synthetic biology and the iGEM competition to him. We also asked him if a project like ours could do anything for younger children like elementary school students. He said, "Actually, elementary school students are more knowledgeable than we think, probably because of the advanced internet. There is a lot of knowledge that we think children won't know, but that just comes from our subjective assumption." This also inspired us to go into elementary schools to conduct a gene editing science curriculum (see <a href="https://2022.igem.wiki/tongji-software/communication" >Communication.</a>) to bring more attention to gene editing in our lives. The successful completion of our course was supported and endorsed by him, and he also helped us with many formalities.
 </p>
 <br/>
 <Container>
@@ -396,12 +396,10 @@ We also had an online meeting with Mr. Xu, an employee of a biopharmaceutical co
 </Row>
 <br/>
 <p style={{width:"85vw",marginLeft:"8vw"}}>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 In our exchange with the DUT_China team, we also discussed the current state of research on the off-target effects of gene editing and whether Acr proteins have advantages in avoiding off-target effects. (See <a href="https://2022.igem.wiki/tongji-software/collaborations" >Collaborations</a>) By sharing the information we collected and the content of the project, we concluded that Acr protein has an irreplaceable advantage to deal with off-target effects and it is broad spectrum and easy usability make it a convenient tool.
 </p>
 <br/>
 <p style={{width:"85vw",marginLeft:"8vw",fontWeight:"bold"}}>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 All in all, we continued to improve our project and clarify the meaning of our project during the process of integrated human practice. The future development and application of Acr are more extensive and powerful than we imagined and make us more confident and motivated to keep improving what we are doing, and even hope to continuously devote to the research in this field and refine our software after we finished this project. Some of our perceptions change as we continue to interact with people, and the exclamation, "So that's what it is!" often occurred in our communication process. If we don't communicate with the world, we won't be constantly updating our ideas, keeping up with the current, and bringing our projects closer to humanity itself. These are significances we learned from human practice process.
 </p>
 <br/>
