@@ -5,25 +5,9 @@ const Partnership = () => {
   return (
     <>
 <div style={{textAlign:"center"}}>
-<h1 style={{color:"white" ,
-                fontSize:"80px",
-                fontWeight:"bold",
-                marginTop:"90vh",
-                marginLeft:"10vw",
-                position:"absolute",
-                }}> Partnership</h1>
-              <h1 style={{color:"white" ,
-                fontSize:"50px",
-                fontWeight:"bold",
-                marginTop:"90vh",
-                marginLeft:"45vw",
-                position:"absolute",
-                textAlign:"left",
-                }}> Anti-CRISPR Genome-based<br/> Predicting Software</h1>
-                
-<br/>
-     <img src="https://static.igem.wiki/teams/4272/wiki/team01.png" 
-            style={{height:"100vh"}} alt="attr-page-img1" />
+        
+     <img src="https://static.igem.wiki/teams/4272/wiki/team001.png" 
+            style={{height:"100vh"}} alt="partner-page-bg" />
       <br/>
 </div>
 
@@ -67,7 +51,7 @@ const Partnership = () => {
       <br /><br />
 
       <div temImg2>
-        <img className='img' src="https://static.igem.wiki/teams/4272/wiki/team02.png" alt="team02.png"></img>
+        <img className='img' src="https://static.igem.wiki/teams/4272/wiki/team002.png" alt="team002.png"></img>
         <br /><br />
         <div className='imgComment'>Picture 1. Tongji_Software communicating with SYSU_Software</div>
         <br /><br /><br /><br /><br /><br />
