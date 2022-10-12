@@ -20,7 +20,7 @@ const Software = () => {
         >Procedural Testing 
         </h2>
       </Col>
-      <Col md={{span:8,offset:1}}>
+      <Col md={{span:9,offset:1}}>
        <p>
         First step download genebank files
         <br/>choice 1. NCBI id example:
@@ -45,10 +45,29 @@ const Software = () => {
         Step five perform the python 3 test py -i ../coding/genome_ Feature / (ncbiid or FASTA name). CSV the prediction results can be viewed in preture.csv under this directory.
 
         </p>
-        <a href="/tongji-software/software">
-        <img src="https://static.igem.wiki/teams/4272/wiki/proof-data.png" 
-        style={{ }} alt="proof"/>  </a>
+        <br/>
+
        </Col>
+       <Col md={{offset:1}}>
+      <h2 className='head2' style={{
+            color:"#0072F9",
+            marginTop:"5vh",
+            marginBottom:"3vh",
+         }}
+        >GUI for users
+        </h2>
+      </Col>
+      <Col md={{span:9,offset:1}}>
+        <h4>For ease of use, we provide a web interface and graphical pages of the site(<a href='http://43.138.37.82:80'>http://43.138.37.82:80</a>):</h4>
+        <br/>
+        <img src="https://static.igem.wiki/teams/4272/wiki/software-1.jpg" 
+        style={{border:"3px solid blue", width:"100%"}} alt="software"/> 
+        <h4>When rhe programme is running....</h4>
+        <br/>
+        <img src="https://static.igem.wiki/teams/4272/wiki/sofware-2.png" 
+        style={{border:"3px solid blue", width:"100%"}} alt="software"/> 
+        <h4>After running, you can directly get your results.</h4>
+        </Col>
     </div>
   )
 }

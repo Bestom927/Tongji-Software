@@ -22,7 +22,7 @@ const Footer = () => {
                       <FaGitlab style={{width:"20px"}}/>https://gitlab.igem.org/2022/tongji-software
                     </a>
                     <br/>
-                    <a style={{color:"white"}}>tongjisoftware2022@163.com</a>
+                    <div style={{color:"white"}}>tongjisoftware2022@163.com</div>
                 </div>
             </div>
         </div>
