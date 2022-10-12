@@ -28,7 +28,7 @@ const Semicircle = () =>{
                 </div>
                 <div className="jump-box" id="jump-box3">  
                     <div id="jump-icon-Edit"> <img src="https://static.igem.wiki/teams/4272/wiki/icon-edit.png" alt="Edit" /></div>
-                    <div className="jump-instance">Teacher assitance</div>
+                    <div className="jump-instance">Teacher assistance</div>
                 </div>
                 <div className="jump-box" id="jump-box4">  
                     <div id="jump-icon-Search"> <img src="https://static.igem.wiki/teams/4272/wiki/icon-search.png" alt="Search" /></div>
