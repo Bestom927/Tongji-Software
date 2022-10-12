@@ -1,6 +1,5 @@
 import React from 'react'
 import './Partnership.css'
-import { Col } from 'react-bootstrap'
 
 const Partnership = () => {
   return (
