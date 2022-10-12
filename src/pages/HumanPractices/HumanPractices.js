@@ -323,7 +323,7 @@ When our software was initially built, we invited some bioinformatics students t
 <br/>
 <Row>
   <Col md={{offset:1,span:10  }}>
-<h1 style={{color:"#0072F9"}}> <StarLg/> &nbsp;Design & Improvement （July-September）</h1>
+<h1 style={{color:"#0072F9"}}> <StarLg/> &nbsp;Meaning & Applications</h1>
 </Col>
 
 </Row>
