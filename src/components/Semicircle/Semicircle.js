@@ -94,17 +94,7 @@ const Semicircle = () =>{
                                 <div style={{fontWeight: "600",fontSize:"2vmin"}}>Easy to use</div>
                                 <div className="box-content-detail">
                                     <div style={{width:"11vw"}}>
-                                    Anti-CRISPR proteins can be easily
-                                    integrated into a wide range of in vivo
-                                    and in vitro systems using standard
-                                    molecular biology toolkits without
-                                    the need for expensive ligands,equipment,
-                                    or protein engineering. The direct mode
-                                    of action of many of the characterized
-                                    anti-CRISPR proteins ensures that they
-                                    function in heterologous hosts.
-                                    They are also complementary to many
-                                    existing regulatory strategies.
+                                    Anti-CRISPR proteins can be easily integrated into a wide range of systems without the need for expensive ligands, equipment, or protein engineering. The direct mode of action of some anti-CRISPR proteins ensures their functions in heterologous hosts. They are also complementary to many existing regulatory strategies.
                                    </div>
                                 </div>
                         </div>

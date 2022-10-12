@@ -29,9 +29,10 @@ function LecturePhotoPlayer(){
 
 function GamePhotoPlayer(){
   const [photoList] = useState([
-    'https://static.igem.wiki/teams/4272/wiki/education-lecture3.jpg',
-    'https://static.igem.wiki/teams/4272/wiki/education-lecture4.jpg',
-    'https://static.igem.wiki/teams/4272/wiki/education-lecture5.jpg',
+    'https://static.igem.wiki/teams/4272/wiki/game-1.png',
+    'https://static.igem.wiki/teams/4272/wiki/game-2.png',
+    'https://static.igem.wiki/teams/4272/wiki/game-3.png',
+    'https://static.igem.wiki/teams/4272/wiki/game-4.png',
   ]);
   return (
     <Carousel
@@ -210,7 +211,7 @@ const EduLecture=()=>{
         <LecturePhotoPlayer/>
         <div className='edu-picture-remark' id='edu-picture5-remark'>Picture 5. The students listened to the lecture very carefully</div>
 
-        <div className='edu-content' style={{marginTop:"-50vh",width:"15vw",marginLeft:"60vw"}}>
+        <div className='edu-content' style={{marginTop:"-60vh",width:"15vw",marginLeft:"65%"}}>
         We were surprised by how well the children interacted with us and how much knowledge they had about gene editing.
          We were happy to see that the children understood a large part of what we thought was difficult to understand after talking to them. 
          The enthusiasm and feedback we felt from this offline teaching method were far beyond what we could have gotten from the online interaction.

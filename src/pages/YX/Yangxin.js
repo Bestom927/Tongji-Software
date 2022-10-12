@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import ReactPlayer from 'react-player';
+
 import './Yangxin.css';
 import { Col,Row } from 'react-bootstrap';
 
@@ -76,13 +76,11 @@ const GameEducation = () => {
 
 
             <br /><br />
-
             <div className='videoInfo'>
                 <div className='video'>
-                    <ReactPlayer
-                        width='100%'
-                        controls={true}
-                        url='https://zhstatic.zhihu.com/cfe/griffith/zhihu2018_hd.mp4' />
+                        <iframe title="Tongji_Software: software game (2022) [English]" width="560" height="315" src="https://video.igem.org/videos/embed/fe1f87b2-47a4-475f-98da-3eff4aa54737" 
+                        frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"
+                        style={{ width: "80vw", height: "80vh" }}></iframe>
                 </div>
             </div>
             <br />
